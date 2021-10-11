@@ -40,7 +40,7 @@ Bellow you can find the structure of IE tow-to/tutorial
 
 ### Overview
 
-Why has been this how-to/tutorial created? What is the purpose?
+This use case shows how to monitoring the production cycles of a discrete manufacturing process with identification of delayed process steps which allows localization the root cause.
 
 ### General Task
 
