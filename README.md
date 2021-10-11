@@ -41,7 +41,7 @@ Bellow you can find the structure of IE tow-to/tutorial
 ### Overview
 This use case shows how to monitoring the production cycles of a discrete manufacturing process with identification of delayed process steps which allows localization the root cause.
 
-![task](docs/graphics/overview.png)
+![overview](docs/graphics/overview.png)
 
 ### General Task
 
@@ -86,6 +86,8 @@ To keep the readme.md file as short as possible please add more detailed informa
 ## Usage
 
 As soon as the program has been transferred to the PLCs and the edge system has been configured with performance insight, the process can be started. The car to be produced can be selected via the HMI. An HMI picture can be called up for each station. There you can see an overview of the step chains that are executed on the CPU. With the help of the button "Simulate values" the steps in each station can be extended with the help of a randomly generated value.
+
+![usage](docs/graphics/delay_select.png)
 
 If there is a delay in any of the steps, it will be visible in Performance Insight. With the help of Performance Insight, it can then be found out which step has led to the planned production duration and the measured production duration being different.
 ## Documentation
