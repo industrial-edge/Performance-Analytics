@@ -1,7 +1,9 @@
 # Installation
 
 - [Configuration steps](#configuration-steps)
-  - [Build application](#build-application)
+- [Configure PLC Connections](#configure-plc-connections)
+  - [Configure Databus](#configure-databus)
+  - [Configure S7 Connector](#configure-s7-connector)
     - [Cloning image](#cloning-image)
     - [Build docker image](#build-docker-image)
   - [Upload  App to the Industrial Edge Managment](#upload--app-to-the-industrial-edge-managment)
