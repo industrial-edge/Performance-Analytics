@@ -31,6 +31,9 @@ When the configurator is open, add a user with the topic: `ie/#`
 
 ![Databus_User](graphics/add_user.png)
 
+![Databus_Configuration](graphics/databus_configuration.png)
+
+Deploy the configuration.
 
 ### Configure S7 Connector
 
