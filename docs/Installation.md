@@ -37,6 +37,10 @@ Deploy the configuration.
 
 ### Configure S7 Connector
 
+Open the S7 Connector in your IEM and launch the configurator.
+
+Add a new data source for PLC1:
+
 ## Configure Data Service
 
 ### Configure the adapter
