@@ -44,6 +44,11 @@ Add a new data source for PLC1:
 
 ![S7 PLC1](graphics/S7_Connector_PLC1.png)
 
+Add the needed tags:
+
+The "active" variables of the individual steps are those that end with "_x".
+
+
 Edit the settings:
 
 ![S7 Settings PW](graphics/S7_Connector_PW.png)
@@ -61,6 +66,8 @@ Open the web interface of your Edge Device and launch the Data Service app.
 Select the available "adapters" on the left and choose the SIMATIC S7 Connector. Click the edit icon on the right to open the adapter configuration.
 
 ### Configure an asset with variables
+
+Click on the icon “Assets & Connectivity” on the left bar. Add an child asset for the main “edge asset”.
 
 ## Configure Performance Insight
 
