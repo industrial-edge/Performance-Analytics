@@ -2,14 +2,14 @@
 
 Bellow you can find the structure of IE tow-to/tutorial
 
-* [Writing good how-to or tutorial](#writing-good-how-to-or-tutorial)
+* [Anchor-Use-Case-Plug-and-Analyze](#anchor-use-case-plug-and-analyze)
   * [Description](#description)
     * [Overview](#overview)
     * [General Task](#general-task)
   * [Requirements](#requirements)
     * [Prerequisites](#prerequisites)
     * [Used components](#used-components)
-  * [Installation](#installation)
+  * [Configuration-steps](#configuration-steps)
   * [Usage](#usage)
   * [Documentation](#documentation)
   * [Contribution](#contribution)
@@ -54,7 +54,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 *	Performance Insight V 1.3
 
 
-## Installation
+## Configuration steps
 
 You can find the further information about the following steps in the [docs](docs/installation.md#installation)
 *	Configure PLC projects
