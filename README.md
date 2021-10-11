@@ -57,15 +57,15 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 ## Installation
 
 You can find the further information about the following steps in the docs
-•	Configure PLC projects
-•	Configure PLC Connections
- •	Configure Databus
- •	Configure S7 Connector
-•	Configure Data Service
- •	Configure the adapter
- •	Configure an asset with variables
-•	Configure Performance Insight
- •	Configure a dashboard
+*	Configure PLC projects
+*	Configure PLC Connections
+ *	Configure Databus
+ *	Configure S7 Connector
+*	Configure Data Service
+ *	Configure the adapter
+ *	Configure an asset with variables
+*	Configure Performance Insight
+ *	Configure a dashboard
 
 
 ## Usage
