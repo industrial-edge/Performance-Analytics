@@ -13,7 +13,7 @@
   
 
 ## Configure PLC project
-1.	Open TIA portal and open the project containing the car production application
+1.	Open TIA portal and open the project containing the car production application (Adapt the IP addresses to your system)
 2.	Download the PLC program to the PLCs and set the PLCs into RUN
 3.	Open the HMI to control the car production applikation
 
