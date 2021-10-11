@@ -19,7 +19,16 @@
 
 ## Configure PLC Connections
 
+We use S7 Connector to read data from the PLCs and provide the data. The data from the CPU are transferred via OPC UA, S7 and S7 +. The data is sent via the S7 connector to the Databus, from where the Data Service can use the data. In order to build this infrastructure, these apps must be configured correctly:
+
+* Databus
+* S7 Connector
+
 ### Configure Databus
+
+Open the IEM and launch the Databus configurator.
+When the configurator is open, add a user with the topic: "ie/#"
+
 
 ### Configure S7 Connector
 
