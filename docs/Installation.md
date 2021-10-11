@@ -1,6 +1,6 @@
 # Installation
 
-- [Configuration step](#configuration-steps)
+- [Configuration steps](#configuration-steps)
   - [Build application](#build-application)
     - [Cloning image](#cloning-image)
     - [Build docker image](#build-docker-image)
