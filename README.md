@@ -56,7 +56,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 
 ## Installation
 
-You can find the further information about the following steps in the [docs](docs/install.md)
+You can find the further information about the following steps in the [docs](docs/installation.md)
 *	Configure PLC projects
 *	Configure PLC Connections
   *	Configure Databus
