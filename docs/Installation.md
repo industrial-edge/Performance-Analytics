@@ -42,9 +42,23 @@ Open the S7 Connector in your IEM and launch the configurator.
 
 Add a new data source for PLC1:
 
+![S7 PLC1](graphics/S7_Connector_PLC1.png)
+
+Edit the settings:
+
+![S7 Settings PW](graphics/S7_Connector_PW.png)
+
+Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
+
+Deploy the project and start it
+
 ## Configure Data Service
 
+Open the web interface of your Edge Device and launch the Data Service app. 
+
 ### Configure the adapter
+
+Select the available "adapters" on the left and choose the SIMATIC S7 Connector. Click the edit icon on the right to open the adapter configuration.
 
 ### Configure an asset with variables
 
