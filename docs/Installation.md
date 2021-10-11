@@ -65,6 +65,10 @@ Open the web interface of your Edge Device and launch the Data Service app.
 
 Select the available "adapters" on the left and choose the SIMATIC S7 Connector. Click the edit icon on the right to open the adapter configuration.
 
+![Dataservice Adapter Configuration](graphics/Dataservice_Adapter_configuration.png)
+
+Add the missing entries for username and password (again "edge"/"edge") and save it.
+
 ### Configure an asset with variables
 
 Click on the icon “Assets & Connectivity” on the left bar. Add an child asset for the main “edge asset”.
