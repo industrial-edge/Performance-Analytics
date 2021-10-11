@@ -46,12 +46,14 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 *	PLC4: CPU 1517F-3 PN/DP FW 2.8
 *	PLC5: CPU 1517TF-3 PN/DP FW 2.8
 *	HMI: TP900 Comfort
+*	Industrial Edge Management V1.3.X
 *	Industrial Edge Device V 1.XX
 *	SIMATIC S7 Connector V 1.XX
 *	SIMATIC S7 Connector Configurator V 1.XX
 *	IE Databus V 1.XX
 *	IE Databus Configurator V 1.XX
 *	Performance Insight V 1.3
+*	Webbrowser (Chrome or Firefox)
 
 
 ## Configuration steps
