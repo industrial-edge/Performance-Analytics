@@ -29,7 +29,7 @@ We use S7 Connector to read data from the PLCs and provide the data. The data fr
 Open the IEM and launch the Databus configurator.
 When the configurator is open, add a user with the topic: `ie/#`
 
-![Databus_User](graphics/add_user)
+![Databus_User](graphics/add_user.png)
 
 
 ### Configure S7 Connector
