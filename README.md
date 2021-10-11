@@ -56,11 +56,17 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 
 ## Installation
 
-How to install/run this application example? (i.e. how to deploy it to Industrial Edge device?) How to build this application? How to set up configurations in IE?
+You can find the further information about the following steps in the docs
+•	Configure PLC projects
+•	Configure PLC Connections
+ •	Configure Databus
+ •	Configure S7 Connector
+•	Configure Data Service
+ •	Configure the adapter
+ •	Configure an asset with variables
+•	Configure Performance Insight
+ •	Configure a dashboard
 
-To keep the readme.md file as short as possible please add more detailed information in the docs folder.
-
-* [Build application](docs/Installation.md#build-application)
 
 ## Usage
 
