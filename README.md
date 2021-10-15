@@ -31,11 +31,11 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 ### Prerequisites
 
 *	Onboarded Industrial Edge Device on Industrial Edge Management
-*	Installed system configurators
-*	Installed system applications
-*	Installed Performance Insight 
-*	Edge device is connected to PLC
-*	TIA portal project downloaded to PLC
+*	Access to an Industrial Edge Management System (IEM)
+*	Establish Connection to 5 PLCs for getting data into the Edge Device
+*	Installed system configurators (S7 Connector Configurator, Databus Configurator)
+*	Installed Apps on IED ( S7 Connector, Databus, Data Service, Flow Creator, Performance Insight)
+*	Google Chrome (Version ≥ 72) or Firefox (Version ≥ 62) 
 
 ### Used components
 
