@@ -10,7 +10,6 @@ Bellow you can find the structure of this use case:
     * [Prerequisites](#prerequisites)
     * [Used components](#used-components)
   * [Configuration-steps](#configuration-steps)
-  * [Usage](#usage)
   * [Documentation](#documentation)
   * [Contribution](#contribution)
   * [Licence and Legal Information](#licence-and-legal-information)
@@ -72,14 +71,6 @@ You can find the further information about the following steps in the [docs](doc
 *	Configure Performance Insight
   *	Configure a dashboard
 
-
-## Usage
-
-As soon as the program has been transferred to the PLCs and the edge system has been configured with performance insight, the process can be started. The car to be produced can be selected via the HMI. An HMI picture can be called up for each station. There you can see an overview of the step chains that are executed on the CPU. With the help of the button "Simulate values" the steps in each station can be extended with the help of a randomly generated value.
-
-![usage](docs/graphics/delay_select.png)
-
-If there is a delay in any of the steps, it will be visible in Performance Insight. With the help of Performance Insight, it can then be found out which step has led to the planned production duration and the measured production duration being different.
 ## Documentation
 
 You can find further documentation and help in the following links
