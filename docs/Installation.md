@@ -20,6 +20,12 @@
 2.	Download the PLC program to the PLCs and set the PLCs into RUN
 3.	Open the HMI to control the car production applikation
 
+![HMI Overview](graphics/HMI_overview.png)
+
+![HMI Stationview](graphics/HMI_stationview.png)
+
+![HMI Delayselect](graphics/delay_select.png)
+
 ## Configure PLC Connections
 
 We use S7 Connector to read data from the PLCs and provide the data. The data from the CPU are transferred via OPC UA, S7 and S7 +. The data is sent via the S7 connector to the Databus, from where the Data Service can use the data. In order to build this infrastructure, these apps must be configured correctly:
