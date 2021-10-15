@@ -22,9 +22,24 @@
 
 ![HMI Overview](graphics/HMI_overview.png)
 
+Global Screen:
+* Switch between automatic and manuel mode of the stations
+* Select which car typ should be produce
+* Check Status of the stations
+* See the calculated and measured production time for each car type
+* Start and stop the stepper sequence in the stations
+* Switch to the screens for every station 
+
 ![HMI Stationview](graphics/HMI_stationview.png)
 
+Station Screen:
+
 ![HMI Delayselect](graphics/delay_select.png)
+
+Delay Select Screen:
+* Reachable via button “Simulate values” on each station
+* Select which step should be delay
+* When the step is selected, a random time between 0 and 10 seconds is added to the step
 
 ## Configure PLC Connections
 
