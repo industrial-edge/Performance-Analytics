@@ -25,6 +25,7 @@
 Global Screen:
 * Switch between automatic and manuel mode of the stations
 * Select which car typ should be produce
+* See which car typ is actually in production in each station
 * Check Status of the stations
 * See the calculated and measured production time for each car type
 * Start and stop the stepper sequence in the stations
@@ -33,6 +34,13 @@ Global Screen:
 ![HMI Stationview](graphics/HMI_stationview.png)
 
 Station Screen:
+* Switch between automatic and manuel mode for the selected station ( Only when status is Idle)
+* Select the car typ with the dropdown menu in manuel mode
+* After selecting the car typ start the stepper sequence
+* Stop and reset the stepper sequence
+* See the status of the station
+* See the car typ in the station in automatic mode
+* Switch to the delay select screen ("Simulate values")
 
 ![HMI Delayselect](graphics/delay_select.png)
 
