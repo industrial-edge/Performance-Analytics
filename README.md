@@ -18,7 +18,7 @@ Bellow you can find the structure of this use case:
 ## Description
 
 ### Overview
-This use case shows how to monitoring the production cycles of a discrete manufacturing process with identification of delayed process steps which allows localization the root cause.
+With the help of this use case, it is shown how added value can be gained from the production data. This OEE evaluation can identify the causes of efficiency losses with a performance monitoring and analysis solution. This gives you better insights into production and allows you to derive actions. The solution is also suitable for existing systems. This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a fictitious automobile production with 5 stations and random delayed steps.
 
 ![overview](docs/graphics/overview.png)
 
