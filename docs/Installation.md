@@ -10,6 +10,7 @@
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
   - [Configure a dashboard](#configure-a-dashboard)
+  - [Defining Limits](#defining-limits)
   
 
 ## Configure PLC project
@@ -108,3 +109,5 @@ Click on the icon “Assets & Connectivity” on the left bar. Add an child asse
 ## Configure Performance Insight
 
 ### Configure a dashboard
+
+### Defining Limits
