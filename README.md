@@ -70,6 +70,7 @@ You can find the further information about the following steps in the [docs](doc
   *	Configure an asset with variables
 *	Configure Performance Insight
   *	Configure a dashboard
+  *	Defining Limits
 
 ## Documentation
 
