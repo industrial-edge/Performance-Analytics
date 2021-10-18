@@ -113,4 +113,11 @@ Click on the icon “Assets & Connectivity” on the left bar. Add an child asse
 
 ### Defining Limits
 
+To set the limits for the steps in the stepper sequence, the drop-down menu next to the asset name must be opened.
+
 ### Show step time analysis
+
+When you have created steps for the asset in the Data Service and when you have defined the limits then the step time analysis is automatically 
+displayed in the "Step time analysis" dashboard.
+
+With the help of the "Overview" screen you can get all information of the sequences of a specific product for a specified time period.
