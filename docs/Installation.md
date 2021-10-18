@@ -79,6 +79,10 @@ Add a new data source for PLC1 with the OPC-UA Connector:
 
 ![S7 PLC1](graphics/S7_Connector_PLC1.png)
 
+Add the needed tags:
+
+The "active" variables of the individual steps are those that end with "_x".
+
 Add a second data source for PLC2 also with the OPc-UA Connector:
 
 ![S7 PLC2](graphics/S7_Connector_PLC2.png)
@@ -87,10 +91,9 @@ The third PLC is added as a data source with the following parameters with the S
 
 ![S7 PLC3](graphics/S7_Connector_PLC3.png)
 
-Add the needed tags:
+PLC4 and PLC5 are used as data sources with the S7 protocol:
 
-The "active" variables of the individual steps are those that end with "_x".
-
+![S7 PLC4](graphics/S7_Connector_PLC4.png)![S7 PLC5](graphics/S7_Connector_PLC5.png)
 
 Edit the settings:
 
