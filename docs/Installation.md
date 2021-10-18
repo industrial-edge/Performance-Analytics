@@ -101,7 +101,7 @@ Edit the settings:
 
 Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
 
-Deploy the project and start it
+Deploy the project and start it.
 
 ## Configure IE Flow Creator
 Open the Applikation IE Flow Creator on the Edge Device. 
