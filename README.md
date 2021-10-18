@@ -71,6 +71,7 @@ You can find the further information about the following steps in the [docs](doc
 *	Configure Performance Insight
   *	Configure a dashboard
   *	Defining Limits
+  *	Show step time analysis
 
 ## Documentation
 
