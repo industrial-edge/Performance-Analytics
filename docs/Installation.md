@@ -11,6 +11,7 @@
 - [Configure Performance Insight](#configure-performance-insight)
   - [Configure a dashboard](#configure-a-dashboard)
   - [Defining Limits](#defining-limits)
+  - [Show step time analysis](#show-step-time-analysis
   
 
 ## Configure PLC project
@@ -111,3 +112,5 @@ Click on the icon “Assets & Connectivity” on the left bar. Add an child asse
 ### Configure a dashboard
 
 ### Defining Limits
+
+### Show step time analysis
