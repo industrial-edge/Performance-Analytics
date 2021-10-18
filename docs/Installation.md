@@ -121,6 +121,8 @@ Add the missing entries for username and password (again "edge"/"edge") and save
 
 Click on the icon "Assets & Connectivity" on the left bar. Add an child asset for the main "edge" asset. Into this child asset add 5 subassets for the stations.
 
+![Dataservice_Assets](graphics/Dataservice_Assets.png)
+
 ## Configure Performance Insight
 
 ### Configure a dashboard
