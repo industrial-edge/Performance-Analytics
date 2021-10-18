@@ -5,6 +5,7 @@
 - [Configure PLC Connections](#configure-plc-connections)
   - [Configure Databus](#configure-databus)
   - [Configure S7 Connector](#configure-s7-connector)
+- [Configure IE Flow Creator](#configure-IE-flow-creator) 
 - [Configure Data Service](#configure-data-service)
   - [Configure the adapter](#configure-the-adapter)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
@@ -90,6 +91,9 @@ Edit the settings:
 Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
 
 Deploy the project and start it
+
+## Configure IE Flow Creator
+Open the Applikation IE Flow Creator on the Edge Device. 
 
 ## Configure Data Service
 Steps are created for an asset as aspects in the data service and automatically transferred to Performance Insight. Open the web interface of your Edge Device and launch the Data Service app. 
