@@ -92,8 +92,7 @@ Hint: Username and password should be the same for all system apps, e.g. "edge" 
 Deploy the project and start it
 
 ## Configure Data Service
-
-Open the web interface of your Edge Device and launch the Data Service app. 
+Steps are created for an asset as aspects in the data service and automatically transferred to Performance Insight. Open the web interface of your Edge Device and launch the Data Service app. 
 
 ### Configure the adapter
 
