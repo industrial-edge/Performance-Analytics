@@ -75,9 +75,17 @@ Deploy the configuration.
 
 Open the S7 Connector in your IEM and launch the configurator.
 
-Add a new data source for PLC1:
+Add a new data source for PLC1 with the OPC-UA Connector:
 
 ![S7 PLC1](graphics/S7_Connector_PLC1.png)
+
+Add a second data source for PLC2 also with the OPc-UA Connector:
+
+![S7 PLC2](graphics/S7_Connector_PLC2.png)
+
+The third PLC is added as a data source with the following parameters with the S7 Connector:
+
+![S7 PLC3](graphics/S7_Connector_PLC3.png)
 
 Add the needed tags:
 
