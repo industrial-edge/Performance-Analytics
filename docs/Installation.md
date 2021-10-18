@@ -137,3 +137,5 @@ When you have created steps for the asset in the Data Service and when you have 
 displayed in the "Step time analysis" dashboard.
 
 With the help of the "Overview" screen you can get all information of the sequences of a specific product for a specified time period. When the step is gray the steptime is within the defined limits. A red displayed step is a step which is toutside the defined limits.
+
+![Performance Insight Overview](graphics/PerformanceInsight_Overview.png)
