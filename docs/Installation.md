@@ -89,13 +89,20 @@ Add a second data source for PLC2 also with the OPC-UA Connector:
 
 ![S7 PLC2](graphics/S7_Connector_PLC2.png)
 
+Add the needed tags for PLC2 in the same way. Add the Tags for the Steps and the tag for the product.
+
 The third PLC is added as a data source with the following parameters with the S7 Connector:
 
 ![S7 PLC3](graphics/S7_Connector_PLC3.png)
 
+Also add the same tags from PLC3.
+
 PLC4 and PLC5 are used as data sources with the S7 protocol:
 
-![S7 PLC4](graphics/S7_Connector_PLC4.png)![S7 PLC5](graphics/S7_Connector_PLC5.png)
+![S7 PLC4](graphics/S7_Connector_PLC4.png)
+![S7 PLC5](graphics/S7_Connector_PLC5.png)
+
+Add for these PLCs the tags respectively.
 
 Edit the settings:
 
