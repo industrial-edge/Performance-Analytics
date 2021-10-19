@@ -83,9 +83,9 @@ Add the needed tags:
 
 The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". Also add the String Variable for the Product "DB_Process_Var"."Car_Type_inProduction_Text".
 
+![S7 PLC1 Data](graphics/S7_Connector_PLC1_Data.png)
 
-
-Add a second data source for PLC2 also with the OPc-UA Connector:
+Add a second data source for PLC2 also with the OPC-UA Connector:
 
 ![S7 PLC2](graphics/S7_Connector_PLC2.png)
 
