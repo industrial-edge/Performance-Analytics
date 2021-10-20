@@ -74,7 +74,7 @@ You can find the further information about the following steps in the [docs](doc
   -	Show step time analysis
 
 
-- Configure PLC Connections:
+- Configure PLC Connections
   - Configure Databus
   - Configure S7 Connector
 
