@@ -154,7 +154,7 @@ The steps and stations are automatically applied in Performance Insight. The nex
 
 To set the limits for the steps in the stepper sequence, click on the gear icon on the right.
 
-![Performance Insight Setting Icon](graphics/PerformanceInsight_Settings_Icon.png)
+![Performance Insight Setting Icon](graphics/PerformanceInsight_Settings_icon.png)
 
 ### Show step time analysis
 
