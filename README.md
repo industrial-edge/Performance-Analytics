@@ -74,7 +74,7 @@ You can find the further information about the following steps in the [docs](doc
   -	Show step time analysis
 
 
-- List of required Apps:
+- Configure PLC Connections:
   - Installed Apps Device Energy1 and Energy2:
 
 ## Documentation
