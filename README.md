@@ -78,6 +78,10 @@ You can find the further information about the following steps in the [docs](doc
   - Configure Databus
   - Configure S7 Connector
 
+- Configure Data Service
+  - Configure the adapter
+  - Configure an asset with variables
+
 ## Documentation
 
 You can find further documentation and help in the following links
