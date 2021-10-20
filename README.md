@@ -73,6 +73,10 @@ You can find the further information about the following steps in the [docs](doc
    -	Defining Limits
    -	Show step time analysis
 
+
+- List of required Apps:
+  - Installed Apps Device Energy1 and Energy2:
+
 ## Documentation
 
 You can find further documentation and help in the following links
