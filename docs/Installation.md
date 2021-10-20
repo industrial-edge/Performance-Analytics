@@ -137,6 +137,10 @@ Add for every step aspects. The first step of each branch (step 2 and step 11) m
 ![Dataservice_Aspects1](graphics/Dataservice_aspect1.png)
 ![Dataservice_Aspects2](graphics/Dataservice_aspect2.png)
 
+Connect the aspects with the Connector.
+
+![Dataservice_Aspects3](graphics/Dataservice_aspect3.png)
+
 ## Configure Performance Insight
 
 ### Configure a dashboard
