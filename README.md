@@ -54,6 +54,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 *	SIMATIC S7 Connector Configurator V 1.3.48
 *	IE Databus V 1.3.5
 *	IE Databus Configurator V 1.3.5
+*	Data Service V 1.3.0-11313182
 *	Performance Insight V 1.3.1-11446312
 *	Webbrowser (Chrome or Firefox)
 
