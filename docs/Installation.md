@@ -158,9 +158,13 @@ To set the limits for the steps in the stepper sequence, click on the gear icon 
 
 Choose a product from the list of available products. Click on the gear icon of the product. 
 
-A list with all steps of this product is displayed. Set the step time limit for each step.
+A list with all steps of this product is displayed. Open the dropdown menu with the text "Apply to all step limits". Set the limit factor in percent and click Apply.
 
-![Performance Insight Set Time](graphics/PerformanceInsight_Settings_setTime.png)
+![Performance Insight Set Limit](graphics/PerformanceInsight_setLimit.png)
+
+The time limits are set in the fields. Click the "Save" button.
+
+![Performance Insight Set Time](graphics/PerformanceInsight_setTime.png)
 
 ### Show step time analysis
 
