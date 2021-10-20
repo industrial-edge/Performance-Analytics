@@ -131,9 +131,11 @@ Click on the icon "Assets & Connectivity" on the left bar. Add an child asset fo
 Add for every step aspects. The first step of each branch (step 2 and step 11) must be configured as initial step.
 
 First step of the branch:
+
 ![Dataservice_Aspects1](graphics/Dataservice_aspect1.png)
 
 Following steps of the branch:
+
 ![Dataservice_Aspects2](graphics/Dataservice_aspect2.png)
 
 Connect the aspects with the Connector.
