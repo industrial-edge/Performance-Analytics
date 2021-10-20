@@ -82,6 +82,10 @@ You can find the further information about the following steps in the [docs](doc
   - Configure the adapter
   - Configure an asset with variables
 
+- Configure Performance Insight
+  - Defining Limits
+  - Show step time anaysis
+
 ## Documentation
 
 You can find further documentation and help in the following links
