@@ -146,6 +146,8 @@ Repeat this process for every station.
 
 ## Configure Performance Insight
 
+When the Data Service and the Assets and Aspects are configured and created, open the Performance Insight applikation on the IED. With this applikation it is possible to get information about the duration of defined steps and the observation of limits of individual steps and sequences.
+
 ### Defining Limits
 
 To set the limits for the steps in the stepper sequence, the drop-down menu next to the asset name must be opened.
