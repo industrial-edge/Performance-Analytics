@@ -75,7 +75,8 @@ You can find the further information about the following steps in the [docs](doc
 
 
 - Configure PLC Connections:
-  - Installed Apps Device Energy1 and Energy2:
+  - Configure Databus
+  - Configure S7 Connector
 
 ## Documentation
 
