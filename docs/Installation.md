@@ -156,6 +156,10 @@ To set the limits for the steps in the stepper sequence, click on the gear icon 
 
 ![Performance Insight Setting Icon](graphics/PerformanceInsight_Settings_icon.png)
 
+Choose a product from the list of available products. Click on the gear icon of the product. 
+
+A list with all steps of this product is displayed. Set the step time limit for each step.
+
 ### Show step time analysis
 
 When you have created steps for the asset in the Data Service and when you have defined the limits then the step time analysis is automatically 
