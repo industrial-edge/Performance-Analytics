@@ -10,7 +10,6 @@
   - [Configure the adapter](#configure-the-adapter)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
-  - [Configure a dashboard](#configure-a-dashboard)
   - [Defining Limits](#defining-limits)
   - [Show step time analysis](#show-step-time-analysis)
   
@@ -146,8 +145,6 @@ Repeat this process for every station.
 ![Dataservice_Aspects4](graphics/Dataservice_aspect4.png)
 
 ## Configure Performance Insight
-
-### Configure a dashboard
 
 ### Defining Limits
 
