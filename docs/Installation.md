@@ -160,6 +160,8 @@ Choose a product from the list of available products. Click on the gear icon of 
 
 A list with all steps of this product is displayed. Set the step time limit for each step.
 
+![Performance Insight Set Time](graphics/PerformanceInsight_Settings_setTime.png)
+
 ### Show step time analysis
 
 When you have created steps for the asset in the Data Service and when you have defined the limits then the step time analysis is automatically 
