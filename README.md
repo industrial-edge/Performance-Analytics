@@ -71,7 +71,7 @@ You can find the further information about the following steps in the [docs](doc
   - Configure an asset with variables
 - Configure Performance Insight
   - Defining Limits
-  - Show step time anaysis
+  - Show step time analysis
 
 
 ## Documentation
