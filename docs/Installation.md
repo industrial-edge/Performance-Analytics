@@ -141,6 +141,10 @@ Connect the aspects with the Connector.
 
 ![Dataservice_Aspects3](graphics/Dataservice_aspect3.png)
 
+Repeat this process for every station.
+
+![Dataservice_Aspects4](graphics/Dataservice_aspect4.png)
+
 ## Configure Performance Insight
 
 ### Configure a dashboard
