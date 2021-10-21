@@ -176,3 +176,16 @@ displayed in the "Step time analysis" dashboard.
 With the help of the "Overview" screen you can get all information of the sequences of a specific product for a specified time period. When the step is gray the steptime is within the defined limits. A red displayed step is a step which is toutside the defined limits.
 
 ![Performance Insight Overview](graphics/PerformanceInsight_Overview.png)
+
+The analysis overview is displayed in the "Step time analysis" dashboard with the following options:
+* Switching to the trend view
+* Displaying the number of faulty sequences
+* Execution time of the faulty sequences
+* Selecting a product for which the step time analysis is to be displayed
+* Selecting a time period which the step time analysis is to be displayed
+* Downloading a report in CSV format
+* Switching to the limit definition in the Asset Configuration
+* Displaying the steps with highest fault rate
+* Sequence overview: Display and selection of a specific sequence for detailed display
+* "Show all sequences"
+* Sequence details: Displaying all sequences in the selected time period and defined steps. When selecting a single step, the Trend view of the step opens.
