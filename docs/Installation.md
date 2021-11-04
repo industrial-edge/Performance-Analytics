@@ -24,7 +24,7 @@
 ![HMI Overview](graphics/HMI_overview.png)
 
 Global Screen:
-* Switch between automatic and manuel mode of the stations
+* Switch between automatic and manual mode of the stations
 * Select which car typ should be produce
 * See which car typ is actually in production in each station
 * Check Status of the stations
@@ -35,19 +35,19 @@ Global Screen:
 ![HMI Stationview](graphics/HMI_stationview.png)
 
 Station Screen:
-* Switch between automatic and manuel mode for the selected station ( Only when status is Idle)
-* Select the car typ with the dropdown menu in manuel mode
-* After selecting the car typ start the stepper sequence
+* Switch between automatic and manual mode for the selected station (Only when status is Idle)
+* Select the car type with the dropdown menu in manual mode
+* After selecting the car type start the stepper sequence
 * Stop and reset the stepper sequence
 * See the status of the station
-* See the car typ in the station in automatic mode
+* See the car type in the station in automatic mode
 * Switch to the delay select screen ("Simulate values")
 
 ![HMI Delayselect](graphics/delay_select.png)
 
 Delay Select Screen:
 * Reachable via button “Simulate values” on each station
-* Select which step should be delay
+* Select which step should be delayed
 * When the step is selected, a random time between 0 and 10 seconds is added to the step
 
 ## Configure PLC Connections
@@ -182,7 +182,7 @@ The analysis overview is displayed in the "Step time analysis" dashboard with th
 * Displaying the number of faulty sequences
 * Execution time of the faulty sequences
 * Selecting a product for which the step time analysis is to be displayed
-* Selecting a time period which the step time analysis is to be displayed
+* Selecting a time period for which the step time analysis is to be displayed
 * Downloading a report in CSV format
 * Switching to the limit definition in the Asset Configuration
 * Displaying the steps with highest fault rate
