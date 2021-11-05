@@ -2,14 +2,14 @@
 
 - [Configuration steps](#configuration-steps)
 - [Configure PLC project](#configure-plc-project)
-- [Configure PLC Connections](#configure-plc-connections)
+- [Configure PLC connections](#configure-plc-connections)
   - [Configure Databus](#configure-databus)
   - [Configure S7 Connector](#configure-s7-connector)
 - [Configure Data Service](#configure-data-service)
   - [Configure the adapter](#configure-the-adapter)
   - [Configure an asset with variables](#configure-an-asset-with-variables)
 - [Configure Performance Insight](#configure-performance-insight)
-  - [Defining Limits](#defining-limits)
+  - [Defining limits](#defining-limits)
   - [Show step time analysis](#show-step-time-analysis)
   
 
@@ -27,7 +27,7 @@ Global Screen:
 * Switch between automatic and manual mode of the stations
 * Select which car typ should be produce
 * See which car typ is actually in production in each station
-* Check Status of the stations
+* Check status of the stations
 * See the calculated and measured production time for each car type
 * Start and stop the stepper sequence in the stations
 * Switch to the screens for every station 
@@ -52,7 +52,7 @@ Delay Select Screen:
 
 ## Configure PLC Connections
 
-We use S7 Connector to read data from the PLCs and provide the data. The data from the CPU are transferred via OPC UA, S7 and S7 +. The data is sent via the S7 connector to the Databus, where the Data Service can use the data. In order to build this infrastructure, these apps must be configured correctly:
+We use S7 Connector to read data from the PLCs and provide the data. The data from the CPU are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the data. In order to build this infrastructure, these apps must be configured correctly:
 
 * Databus
 * S7 Connector
@@ -73,7 +73,7 @@ Deploy the configuration.
 
 Open the S7 Connector in your IEM and launch the configurator.
 
-Add a new data source for PLC1 with the OPC-UA Connector:
+Add a new data source for PLC1 with the OPC-UA connector:
 
 ![S7 PLC1](graphics/S7_Connector_PLC1.png)
 
@@ -83,11 +83,11 @@ The "active" variables of the individual steps are those that are in DB_HMI and 
 
 ![S7 PLC1 Data](graphics/S7_Connector_PLC1_Data.png)
 
-Add a second data source for PLC2 also with the OPC-UA Connector:
+Add a second data source for PLC2 also with the OPC-UA connector:
 
 ![S7 PLC2](graphics/S7_Connector_PLC2.png)
 
-Add the needed tags for PLC2 in the same way. Add the Tags for the Steps and the tag for the product.
+Add the needed tags for PLC2 in the same way. Add the tags for the steps and the tag for the product.
 
 The third PLC is added as a data source with the following parameters with the S7 Connector:
 
@@ -124,7 +124,7 @@ Add the missing entries for username and password (again "edge"/"edge") and save
 
 ### Configure an asset with variables
 
-Click on the icon "Assets & Connectivity" on the left bar. Add an child asset for the main "edge" asset. Into this child asset add 5 subassets for the stations.
+Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for the main "edge" asset. Into this child asset add 5 subassets for the stations.
 
 ![Dataservice_Assets](graphics/Dataservice_Assets.png)
 
@@ -138,7 +138,7 @@ Following steps of the branch:
 
 ![Dataservice_Aspects2](graphics/Dataservice_aspect2.png)
 
-Connect the aspects with the Connector.
+Connect the aspects with the connector.
 
 ![Dataservice_Aspects3](graphics/Dataservice_aspect3.png)
 
@@ -148,7 +148,7 @@ Repeat this process for every station.
 
 ## Configure Performance Insight
 
-When the Data Service and the Assets and Aspects are configured and created, open the Performance Insight applikation on the IED. With this applikation it is possible to get information about the duration of defined steps and the observation of limits of individual steps and sequences.
+When the Data Service and the assets and aspects are configured and created, open the Performance Insight applikation on the IED. With this applikation it is possible to get information about the duration of defined steps and the observation of limits of individual steps and sequences.
 
 The steps and stations are automatically applied in Performance Insight. The next step is to specify the limits for each step in the asset configuration.
 
