@@ -19,7 +19,7 @@
 ![TIA_IP_Adress](graphics/TIA_IP_Adress.png)
 
 2.	Download the PLC program to the PLCs and set the PLCs into RUN
-3.	Open the HMI to control the car production applikation
+3.	Open the HMI to control the car production application
 
 ![HMI Overview](graphics/HMI_overview.png)
 
@@ -148,7 +148,7 @@ Repeat this process for every station.
 
 ## Configure Performance Insight
 
-When the Data Service and the assets and aspects are configured and created, open the Performance Insight applikation on the IED. With this applikation it is possible to get information about the duration of defined steps and the observation of limits of individual steps and sequences.
+When the Data Service and the assets and aspects are configured and created, open the Performance Insight application on the IED. With this appliation it is possible to get information about the duration of defined steps and the observation of limits of individual steps and sequences.
 
 The steps and stations are automatically applied in Performance Insight. The next step is to specify the limits for each step in the asset configuration.
 
