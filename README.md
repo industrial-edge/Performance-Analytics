@@ -26,7 +26,7 @@ With the help of this use case, it is shown how added value can be gained from t
 
 ### General Task
 
-This sample application based on five S7-1500 PLCs to control the manufacturing process of a car. A stepper sequence that was implemented with the TIA Portal Tool “Graph” runs on each PLC. The Industrial Edge Device shall be connected to PLC 1 + 2 via OPC UA, to PLC 3 via S7+ and to PLC 4 + 5 via S7 using the system Edge App “S7 Connector”. For each implemented step the connectivity shall provide a tag that carries the step activity status. For each stepper sequence an asset model with the activity status needs to be configured and aligned with the related status tags. The option “Cycle Time Analyses” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented stepper sequences in order to assign a reference duration for each step. The dash boards of the Edge App “Performance Insight” compares the configured and measured duration which allows localizing the steps that are causing delays.
+This sample application based on five S7-1500 PLCs to control the manufacturing process of a car. A stepper sequence that was implemented with the TIA Portal Tool “Graph” runs on each PLC. The Industrial Edge Device shall be connected to PLC 1 + 2 via OPC UA, to PLC 3 via S7+ and to PLC 4 + 5 via S7 using the system Edge App “S7 Connector”. For each implemented step the connectivity shall provide a tag that carries the step activity status. For each stepper sequence an asset model with the activity status needs to be configured and aligned with the related status tags. The option “Cycle Time Analyses” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented stepper sequences in order to assign a reference duration for each step. The dashboard of the Edge App “Performance Insight” compares the configured and measured duration which allows localizing the steps that are causing delays.
 
 ## Requirements
 
@@ -34,7 +34,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 
 *	Onboarded Industrial Edge Device (IED) on Industrial Edge Management
 *	Access to an Industrial Edge Management System (IEM)
-*	Establish Connection to 5 PLCs for getting data into the Edge Device
+*	Establish connection to 5 PLCs for getting data into the Edge Device
 *	Installed system configurators (S7 Connector Configurator, Databus Configurator)
 *	Installed Apps on IED ( S7 Connector, Databus, Data Service, Flow Creator, Performance Insight)
 *	Google Chrome (Version ≥ 72) or Firefox (Version ≥ 62) 
@@ -63,14 +63,14 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 
 You can find the further information about the following steps in the [docs](docs/Installation.md#configuration-steps)
 -	Configure PLC projects
-- Configure PLC Connections
+- Configure PLC connections
   - Configure Databus
   - Configure S7 Connector
 - Configure Data Service
   - Configure the adapter
   - Configure an asset with variables
 - Configure Performance Insight
-  - Defining Limits
+  - Defining limits
   - Show step time analysis
 
 
