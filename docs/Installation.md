@@ -14,6 +14,8 @@
   
 
 ## Configure PLC project
+This use case contains a TIA project which simulate the process. The project also inclunde a HMI visualization to operate the demonstration process. The first steps are to configure the PLC project and the intruduction into the HMI screens.
+
 1.	Open TIA portal and open the project containing the car production application (Adapt the IP addresses to your system)
 
 ![TIA_IP_Adress](graphics/TIA_IP_Adress.png)
