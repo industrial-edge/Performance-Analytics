@@ -36,7 +36,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 *	Access to an Industrial Edge Management System (IEM)
 *	Establish connection to 5 PLCs for getting data into the Edge Device
 *	Installed system configurators (S7 Connector Configurator, Databus Configurator)
-*	Installed Apps on IED ( S7 Connector, Databus, Data Service, Flow Creator, Performance Insight)
+*	Installed apps on IED ( S7 Connector, Databus, Data Service, Performance Insight)
 *	Google Chrome (Version ≥ 72) or Firefox (Version ≥ 62) 
 
 ### Used components
