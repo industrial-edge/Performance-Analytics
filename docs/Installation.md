@@ -114,7 +114,7 @@ Deploy the project and start it.
 
 
 ## Configure Data Service
-Steps are created for an asset as aspects in the data service and automatically transferred to Performance Insight. Open the web interface of your Edge Device and launch the Data Service app. 
+Steps are created for an asset as aspects in the data service. An asset represents the stations and for each asset the aspects represents the steps. Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your Edge Device and launch the Data Service app. 
 
 ### Configure the adapter
 
