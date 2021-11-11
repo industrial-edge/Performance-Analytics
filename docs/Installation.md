@@ -61,7 +61,7 @@ We use S7 Connector to read data from the PLCs and provide the data. The data fr
 
 ### Configure Databus
 
-Open the IEM and launch the Databus configurator.
+Open the Industrial Edge Management and launch the Databus configurator.
 
 When the configurator is open, add a user with the topic: `ie/#`
 
@@ -73,7 +73,7 @@ Deploy the configuration.
 
 ### Configure S7 Connector
 
-Open the S7 Connector in your IEM and launch the configurator.
+Open the S7 Connector in your Management and launch the configurator.
 
 Add a new data source for PLC1 with the OPC-UA connector:
 
