@@ -1,7 +1,7 @@
 # Configuration Steps
 
 - [Configuration steps](#configuration-steps)
-- [Configure PLC project in Tia Portal](#configure-plc-projectin-tia-portal)
+- [Configure PLC project in TIA Portal](#configure-plc-projectin-tia-portal)
 - [Configure PLC connections in Industrial Edge](#configure-plc-connectionsin-industrial-edge)
   - [Configure Databus](#configure-databus)
   - [Configure S7 Connector](#configure-s7-connector)
