@@ -31,7 +31,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 ## Requirements
 
 ### Prerequisites
-
+* Industrial Edge Learning Path (Module 1-3)
 *	Onboarded Industrial Edge Device (IED) on Industrial Edge Management
 *	Access to an Industrial Edge Management System (IEM)
 *	Establish connection to 5 PLCs for getting data into the Edge Device
@@ -82,6 +82,7 @@ You can find further documentation and help in the following links
 * [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
 * [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
 * [Industrial Edge GitHub page](https://github.com/industrial-edge)
+* [Industrial Edge Learning Path](https://siemens-learning-sitrainaccess.sabacloud.com/Saba/Web_spf/EU2PRD0112/app/shared;spf-url=common%2Flearningeventdetail%2Fcurra000000000005180%3Freturnurl%3Dcommon%2Fcategorydetail%2Fcateg000000000006660%3FembeddedInTorque%3Dtrue)
 
 ## Contribution
 
