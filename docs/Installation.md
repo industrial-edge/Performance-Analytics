@@ -130,7 +130,7 @@ Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for
 
 ![Dataservice_Assets](graphics/Dataservice_Assets.png)
 
-Add for every step aspects. The first step of each branch (step 2 and step 11) must be configured as initial step. 
+Add for every step aspects. The first step of each branch (step 2 and step 11) must be configured as initial step. This is necessary to mark the beginning of the sequence and to link the corresponding product for the branch.
 
 First step of the branch:
 
