@@ -14,7 +14,7 @@
   
 
 ## Configure PLC project
-This use case contains a TIA project which simulate the process. The project also inclunde a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](https://github.com/industrial-edge/Anchor-Use-Case-Plug-and-Analyze/blob/ab1abb2eedaf8c58fd1651ba53da7f31d61db8a7/StepTimeAnalysis.zip). The first steps are to configure the PLC project and the intruduction into the HMI screens.
+This use case contains a TIA project which simulate the process. The project also inclunde a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](Anchor-Use-Case-Plug-and-Analyze/StepTimeAnalysis.zip). The first steps are to configure the PLC project and the intruduction into the HMI screens.
 
 1.	Open TIA portal and open the project containing the car production application (Adapt the PLC type and IP addresses to your system for each PLC and HMI)
 
