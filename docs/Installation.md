@@ -1,8 +1,8 @@
 # Configuration Steps
 
 - [Configuration steps](#configuration-steps)
-- [Configure PLC project](#configure-plc-project)
-- [Configure PLC connections](#configure-plc-connections)
+- [Configure PLC project in Tia Portal](#configure-plc-projectin-tia-portal)
+- [Configure PLC connections in Industrial Edge](#configure-plc-connectionsin-industrial-edge)
   - [Configure Databus](#configure-databus)
   - [Configure S7 Connector](#configure-s7-connector)
 - [Configure Data Service](#configure-data-service)
@@ -13,7 +13,7 @@
   - [Show step time analysis](#show-step-time-analysis)
   
 
-## Configure PLC project
+## Configure PLC project in TIA Portal
 This use case contains a TIA project which simulate the process. The project also inclunde a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](StepTimeAnalysis.zip). The first steps are to configure the PLC project and the intruduction into the HMI screens.
 
 1.	Open TIA portal and open the project containing the car production application (Adapt the PLC type and IP addresses to your system for each PLC and HMI)
@@ -52,9 +52,9 @@ Delay Select Screen:
 * Select which step should be delayed
 * When the step is selected, a random time between 0 and 10 seconds is added to the step
 
-## Configure PLC Connections
+## Configure PLC Connections in Industrial Edge
 
-We use S7 Connector to read data from the PLCs and provide the data. The data from the CPU are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the data. In order to build this infrastructure, these apps must be configured correctly:
+We use S7 Connector at the Edge side to read data from the PLCs and provide the data. The data from the CPU are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the data. In order to build this infrastructure, these apps must be configured correctly:
 
 * Databus
 * S7 Connector
