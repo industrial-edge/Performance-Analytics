@@ -31,7 +31,7 @@ Global Screen:
 * See which car typ is actually in production in each station
 * Check status of the stations
 * See the calculated and measured production time for each car type
-* Start and stop the stepper sequence in the stations
+* Start and stop the sequential control system in the stations
 * Switch to the screens for every station 
 
 ![HMI Stationview](graphics/HMI_stationview.png)
@@ -39,8 +39,8 @@ Global Screen:
 Station Screen:
 * Switch between automatic and manual mode for the selected station (Only when status is Idle)
 * Select the car type with the dropdown menu in manual mode
-* After selecting the car type start the stepper sequence
-* Stop and reset the stepper sequence
+* After selecting the car type start the sequential control
+* Stop and reset the sequential control
 * See the status of the station
 * See the car type in the station in automatic mode
 * Switch to the delay select screen ("Simulate values")
@@ -156,7 +156,7 @@ The steps and stations are automatically applied in Performance Insight. The nex
 
 ### Defining Limits
 
-To set the limits for the steps in the stepper sequence, click on the gear icon on the right.
+To set the limits for the steps in the sequential control system, click on the gear icon on the right.
 
 ![Performance Insight Setting Icon](graphics/PerformanceInsight_Settings_icon.png)
 
