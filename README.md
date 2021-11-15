@@ -62,8 +62,8 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 ## Configuration steps
 
 You can find the further information about the following steps in the [docs](docs/Installation.md#configuration-steps)
--	Configure PLC projects
-- Configure PLC connections
+-	Configure PLC project in TIA Portal
+- Configure PLC connections in Industrial Edge
   - Configure Databus
   - Configure S7 Connector
 - Configure Data Service
