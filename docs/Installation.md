@@ -114,7 +114,14 @@ Deploy the project and start it.
 
 
 ## Configure Data Service
-Steps are created for an asset as aspects in the data service. An asset represents the stations and for each asset the aspects represents the steps. Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your Edge Device and launch the Data Service app. 
+Steps are created for an asset as aspects in the data service. An asset represent the stations and for each asset the aspects represents the steps. 
+
+Asset = PLC
+∟ Aspect1 = step1
+∟ Aspect2 = step2
+...
+
+Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your IED and launch the Data Service app. 
 
 ### Configure the adapter
 
@@ -150,7 +157,7 @@ Repeat this process for every station.
 
 ## Configure Performance Insight
 
-When the Data Service and the assets and aspects are configured and created, open the Performance Insight application on the IED. With this appliation it is possible to get information about the duration of defined steps and the observation of limits of individual steps and sequences.
+After finishing the configuration of the Data Service, open the Performance Insight application on the IED. With this appliation it is possible to get information about the duration of defined steps and observe limits of individual steps and sequences.
 
 The asset structure that was created in Data Service can also be found in Performance Insight. The next step is to specify the limits for each step in the asset configuration.
 
