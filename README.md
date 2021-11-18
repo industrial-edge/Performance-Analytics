@@ -17,7 +17,7 @@ Bellow you can find the structure of this use case:
 ## Description
 
 ### Overview
-With the help of this use case, it is shown how added value can be gained from the production data. This OEE evaluation can identify the causes of efficiency losses with a performance monitoring and analysis solution. This gives you better insights into production and allows you to derive actions. The solution is also suitable for existing systems. This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a fictitious automobile production with 5 stations and random delayed steps.
+With the help of this use case, it is shown how added value can be gained from the production data. This step time analysis can identify the causes of efficiency losses with a performance monitoring and analysis solution. This gives you better insights into production and allows you to derive actions. The solution is also suitable for existing systems. This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a fictitious automobile production with 5 stations and randomly delayed steps.
 
 
 ![overview1](docs/graphics/overview1.png)
@@ -26,7 +26,7 @@ With the help of this use case, it is shown how added value can be gained from t
 
 ### General Task
 
-This sample application based on five S7-1500 PLCs to control the manufacturing process of a car. A sequential control system that was implemented with the TIA Portal programming language “Graph” runs on each PLC. The Industrial Edge Device shall be connected to PLC 1 + 2 via OPC UA, to PLC 3 via S7+ protocol and to PLC 4 + 5 via S7 protocol using the system Edge App “S7 Connector”. For each implemented step the connectivity shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status needs to be configured and aligned with the related status tags. The option “Step time analysis” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented sequential control systems in order to assign a reference duration for each step. The dashboard of the Edge App “Performance Insight” compares the configured and measured duration which allows localizing the steps that are causing delays.
+This sample application is based on five S7-1500 PLCs to control the manufacturing process of a car. A sequential control system that was implemented with the TIA Portal programming language “Graph” runs on each PLC. The Industrial Edge Device shall be connected to PLC 1 + 2 via OPC UA, to PLC 3 via S7+ protocol and to PLC 4 + 5 via S7 protocol using the system Edge App “S7 Connector”. For each implemented step the connectivity shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status needs to be configured and aligned with the related status tags. The option “Step time analysis” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented sequential control systems in order to assign a reference duration for each step. The dashboard of the Edge App “Performance Insight” compares the configured and measured duration which allows localizing the steps that are causing delays.
 
 ## Requirements
 
@@ -37,7 +37,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 *	Establish connection to 5 PLCs for getting data into the Edge Device
 *	Installed system configurators (S7 Connector Configurator, Databus Configurator)
 *	Installed apps on IED ( S7 Connector, Databus, Data Service, Performance Insight)
-*	Google Chrome (Version ≥ 72) or Firefox (Version ≥ 62) 
+*	Google Chrome (Version ≥ 72)
 
 ### Used components
 
@@ -56,7 +56,7 @@ This sample application based on five S7-1500 PLCs to control the manufacturing 
 *	IE Databus Configurator ≥ V 1.3
 *	Data Service ≥ V 1.3
 *	Performance Insight ≥ V 1.3
-*	Webbrowser (Chrome or Firefox)
+*	Webbrowser (Google Chrome)
 
 
 ## Configuration steps
