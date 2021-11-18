@@ -14,7 +14,7 @@
   
 
 ## Configure PLC project in TIA Portal
-This use case contains a TIA project which simulate the process. The project also inclunde a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](/StepTimeAnalysis.zip). The first steps are to configure the PLC project and the intruduction into the HMI screens.
+This use case contains a TIA project which simulates the process. The project also inclundes a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](/StepTimeAnalysis.zip). The first steps are to configure the PLC project and the intruduction into the HMI screens.
 
 1.	Open TIA portal and open the project containing the car production application (Adapt the PLC type and IP addresses to your system for each PLC and HMI)
 
@@ -27,8 +27,8 @@ This use case contains a TIA project which simulate the process. The project als
 
 Global Screen:
 * Switch between automatic and manual mode of the stations
-* Select which car typ should be produce
-* See which car typ is actually in production in each station
+* Select which car type should be produced
+* See which car tyep is actually in production in each station
 * Check status of the stations
 * See the calculated and measured production time for each car type
 * Start and stop the sequential control system in the stations
