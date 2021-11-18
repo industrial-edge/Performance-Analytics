@@ -108,7 +108,7 @@ Edit the settings:
 
 ![S7 Settings PW](graphics/S7_Connector_PW.png)
 
-Hint: Username and password should be the same for all system apps, e.g. "edge" / "edge".
+Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
 Deploy the project and start it.
 
