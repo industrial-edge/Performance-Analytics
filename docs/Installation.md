@@ -79,7 +79,7 @@ Add a new data source for PLC1 with the OPC UA connector:
 
 ![S7 PLC1](graphics/S7_Connector_PLC1.png)
 
-Add the needed tags:
+Add the needed tags. This can be done by browsing or adding them manually:
 
 The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". This variables indicates if the respective step is active right now. Also add the String Variable for the Product "DB_Process_Var"."Car_Type_inProduction_Text".
 
@@ -95,7 +95,7 @@ The third PLC is added as a data source with the following parameters with the S
 
 ![S7 PLC3](graphics/S7_Connector_PLC3.png)
 
-Also add the same tags from PLC3.
+Also add the same tags from PLC3. Tag browsing also works with the S7+ protocol or add the tags manually.
 
 PLC4 and PLC5 are used as data sources with the S7 protocol:
 
