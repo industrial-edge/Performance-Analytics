@@ -117,8 +117,11 @@ Deploy the project and start it.
 Steps are created for an asset as aspects in the data service. An asset represent the stations and for each asset the aspects represents the steps. 
 
 Asset = PLC
+
 ∟ Aspect1 = step1
+
 ∟ Aspect2 = step2
+
 ...
 
 Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your IED and launch the Data Service app. 
