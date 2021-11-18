@@ -102,7 +102,7 @@ PLC4 and PLC5 are used as data sources with the S7 protocol:
 ![S7 PLC4](graphics/S7_Connector_PLC4.png)
 ![S7 PLC5](graphics/S7_Connector_PLC5.png)
 
-Add for these PLCs the tags respectively.
+Add for these PLCs the tags respectively. With the S7 classic protocol it is only possible to add the tags manually.
 
 Edit the settings:
 
