@@ -63,7 +63,7 @@ We are now switching to the Edge part of this use case. Each of the following st
 
 Open the Industrial Edge Management and launch the Databus configurator.
 
-When the configurator is open, add a user with the topic: `ie/#`
+When the configurator is open, add a user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps.
 
 ![Databus_User](graphics/add_user.png)
 
