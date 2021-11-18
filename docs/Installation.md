@@ -49,12 +49,12 @@ Station Screen:
 
 Delay Select Screen:
 * Reachable via button “Simulate values” on each station
-* Select which step should be delayed
+* Select which step time should be delayed
 * When the step is selected, a random time between 0 and 10 seconds is added to the step
 
 ## Configure PLC Connections in Industrial Edge
 
-We switching now to the Edge part of this use case. Each of the following steps is done in the Industrial Edge system. We use S7 Connector at the Edge side to read data from the PLCs and provide the data. The data from the CPU are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the informations. In order to build this infrastructure, these apps must be configured correctly:
+We are now switching to the Edge part of this use case. Each of the following steps is done in the Industrial Edge system. We use the S7 Connector at the Edge side to read data from the PLCs and provide the data. The data from the PLC are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
 
 * Databus
 * S7 Connector
@@ -73,19 +73,19 @@ Deploy the configuration.
 
 ### Configure S7 Connector
 
-Open the S7 Connector in your Management and launch the configurator.
+Open the your Management and launch the S7 Connector configurator.
 
-Add a new data source for PLC1 with the OPC-UA connector:
+Add a new data source for PLC1 with the OPC UA connector:
 
 ![S7 PLC1](graphics/S7_Connector_PLC1.png)
 
 Add the needed tags:
 
-The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". Also add the String Variable for the Product "DB_Process_Var"."Car_Type_inProduction_Text".
+The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". This variables indicates if the respective step is active right now. Also add the String Variable for the Product "DB_Process_Var"."Car_Type_inProduction_Text".
 
 ![S7 PLC1 Data](graphics/S7_Connector_PLC1_Data.png)
 
-Add a second data source for PLC2 also with the OPC-UA connector:
+Add a second data source for PLC2 also with the OPC UA connector:
 
 ![S7 PLC2](graphics/S7_Connector_PLC2.png)
 
@@ -130,7 +130,7 @@ Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for
 
 ![Dataservice_Assets](graphics/Dataservice_Assets.png)
 
-Add for every step aspects. The first step of each branch (step 2 and step 11) must be configured as initial step. This is necessary to mark the beginning of the sequence and to link the corresponding product for the branch.
+Create an aspect for every step. The first step of each branch (step 2 and step 11) must be configured as initial step. This is necessary to mark the beginning of the sequence and to link the corresponding product for the branch.
 
 First step of the branch:
 
@@ -140,7 +140,7 @@ Following steps of the branch:
 
 ![Dataservice_Aspects2](graphics/Dataservice_aspect2.png)
 
-Connect the aspects with the connector.
+Link the variables that have been created by adding the aspects to the corresponding S7 Connector tags.
 
 ![Dataservice_Aspects3](graphics/Dataservice_aspect3.png)
 
@@ -152,7 +152,7 @@ Repeat this process for every station.
 
 When the Data Service and the assets and aspects are configured and created, open the Performance Insight application on the IED. With this appliation it is possible to get information about the duration of defined steps and the observation of limits of individual steps and sequences.
 
-The steps and stations are automatically applied in Performance Insight. The next step is to specify the limits for each step in the asset configuration.
+The asset structure that was created in Data Service can also be found in Performance Insight. The next step is to specify the limits for each step in the asset configuration.
 
 ### Defining Limits
 
@@ -175,7 +175,7 @@ The time limits are set in the fields. Click the "Save" button.
 When you have created steps for the asset in the Data Service and when you have defined the limits then the step time analysis is automatically 
 displayed in the "Step time analysis" dashboard.
 
-With the help of the "Overview" screen you can get all information of the sequences of a specific product for a specified time period. When the step is gray the step time is within the defined limits. A red displayed step is a step which is toutside the defined limits.
+With the help of the "Overview" screen you can get all information about the sequences of a specific product for a specified time period. When the step is gray the step time is within the defined limits. A step displayed in red is outside the defined limits.
 
 ![Performance Insight Overview](graphics/PerformanceInsight_Overview.png)
 
