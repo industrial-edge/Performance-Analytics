@@ -21,7 +21,7 @@ Don't explain concepts. [It gets in a way of action](https://documentation.divio
 
 Don't use HTML tags unless working with videos. And try to avoid using videos unless absolutely necessary. Don't upload videos to Git repository.
 
-Bellow you can find the structure of IE tow-to/tutorial
+Below you can find the structure of IE tow-to/tutorial
 
 * [Writing good how-to or tutorial](#writing-good-how-to-or-tutorial)
   * [Description](#description)
