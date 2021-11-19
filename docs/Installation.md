@@ -172,7 +172,7 @@ To set the limits for the steps in the sequential control system, click on the g
 
 Choose a product from the list of available products. Click on the gear icon of the product. 
 
-A list with all steps of this product is displayed. Open the dropdown menu with the text "Apply to all step limits". Set the limit factor in percent and click Apply.
+A list with all steps of this product is displayed. Open the dropdown menu with the text "Apply to all step limits". Specify a percentage (e.g. 5%) that is added to the initial value and click Apply. A limit is calculated for all steps based on the respective limits and entered in the "Planned step time limit" column.
 
 ![Performance Insight Set Limit](graphics/PerformanceInsight_setLimit.png)
 
