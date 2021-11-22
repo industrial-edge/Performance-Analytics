@@ -28,7 +28,7 @@ This use case contains a TIA project which simulates the process. The project al
 Global Screen:
 * Switch between automatic and manual mode of the stations
 * Select which car type should be produced
-* See which car tyep is actually in production in each station
+* See which car type is actually in production in each station
 * Check status of the stations
 * See the calculated and measured production time for each car type
 * Start and stop the sequential control system in the stations
@@ -61,7 +61,7 @@ We are now switching to the Edge part of this use case. Each of the following st
 
 ### Configure Databus
 
-Open the Industrial Edge Management and launch the Databus configurator.
+Open the Industrial Edge Management App and launch the Databus configurator.
 
 When the configurator is open, add a user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps.
 
@@ -73,7 +73,7 @@ Deploy the configuration.
 
 ### Configure S7 Connector
 
-Open the your Management and launch the S7 Connector configurator.
+Open your Management App and launch the S7 Connector configurator.
 
 Add a new data source for PLC1 with the OPC UA connector:
 
@@ -81,7 +81,7 @@ Add a new data source for PLC1 with the OPC UA connector:
 
 Add the needed tags. This can be done by browsing or adding them manually:
 
-The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". This variables indicates if the respective step is active right now. Also add the String Variable for the Product "DB_Process_Var"."Car_Type_inProduction_Text".
+The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". This variables indicates if the respective step is active right now. Also add the String variable for the product "DB_Process_Var"."Car_Type_inProduction_Text".
 
 ![S7 PLC1 Data](graphics/S7_Connector_PLC1_Data.png)
 
