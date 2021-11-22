@@ -1,6 +1,6 @@
 # Anchor-Use-Case-Plug-and-Analyze 
 
-Bellow you can find the structure of this use case:
+Below you can find the structure of this use case:
 
 * [Anchor-Use-Case-Plug-and-Analyze](#anchor-use-case-plug-and-analyze)
   * [Description](#description)
