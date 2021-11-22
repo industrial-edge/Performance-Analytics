@@ -160,6 +160,10 @@ The asset structure that was created in Data Service can also be found in Perfor
 
 ### Defining Limits
 
+If no Step time analysis has yet been configured in Performance Insight, the "Define Limits" button is visible.
+
+![Performance Insight Setting Icon_1](graphics/PerformanceInsight_Settings_icon_1.png)
+
 To set the limits for the steps in the sequential control system, click on the gear icon on the right.
 
 ![Performance Insight Setting Icon](graphics/PerformanceInsight_Settings_icon.png)
