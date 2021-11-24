@@ -40,6 +40,7 @@ This sample application is based on five S7-1500 PLCs to control the manufacturi
 *	Google Chrome (Version ≥ 72)
 
 ### Used components
+TIA and PLC:
 
 *	TIA Portal V16
 *	PLC1: CPU 1518F-4 PN/DP FW 2.8
@@ -48,6 +49,9 @@ This sample application is based on five S7-1500 PLCs to control the manufacturi
 *	PLC4: CPU 1517F-3 PN/DP FW 2.8
 *	PLC5: CPU 1517TF-3 PN/DP FW 2.8
 *	HMI: TP900 Comfort
+
+Industrial Edge:
+
 *	Industrial Edge Management V 1.3.10
 *	Industrial Edge Device V 1.3.0-57
 *	SIMATIC S7 Connector V 1.3.0-57
