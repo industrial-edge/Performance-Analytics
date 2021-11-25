@@ -32,8 +32,8 @@ This sample application is based on five S7-1500 PLCs to control the manufacturi
 
 ### Prerequisites
 * Industrial Edge Learning Path (Module 1-3)
+* *	Access to an Industrial Edge Management System (IEM)
 *	Onboarded Industrial Edge Device (IED) on Industrial Edge Management
-*	Access to an Industrial Edge Management System (IEM)
 *	Establish connection to 5 PLCs for getting data into the Edge Device
 *	Installed system configurators (S7 Connector Configurator, Databus Configurator)
 *	Installed apps on IED ( S7 Connector, Databus, Data Service, Performance Insight)
