@@ -86,7 +86,7 @@ You can find further documentation and help in the following links
 * [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
 * [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
 * [Industrial Edge GitHub page](https://github.com/industrial-edge)
-* [Industrial Edge Learning Path](https://siemens-learning-simaticedge.sabacloud.com/)
+* [Industrial Edge Learning Path](https://siemens-learning-simaticedge.sabacloud.com)
 
 ## Contribution
 
