@@ -118,7 +118,7 @@ Steps are created for an asset as aspects in the data service. An asset represen
 
 ![Dataservice Structure](graphics/Dataservice_Struktur.jpg)
 
-Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your IED and launch the Data Service app. 
+Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your Industrial Edge Device (IED) and launch the Data Service app. 
 
 ### Configure the adapter
 
