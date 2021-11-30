@@ -54,7 +54,7 @@ Delay Select Screen:
 
 ## Configure PLC Connections in Industrial Edge
 
-We are now switching to the Edge part of this use case. Each of the following steps is done in the Industrial Edge system. We use the S7 Connector at the Edge side to read data from the PLCs and provide the data. The data from the PLC are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
+We are now switching to the Edge part of this use case. Each of the following steps is done in the Industrial Edge system. We use the S7 Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. The data from the PLC are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
 
 * Databus
 * S7 Connector
@@ -118,7 +118,7 @@ Steps are created for an asset as aspects in the data service. An asset represen
 
 ![Dataservice Structure](graphics/Dataservice_Struktur.jpg)
 
-Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your Industrial Edge Device (IED) and launch the Data Service app. 
+Performance Insight will use this structure of assets and aspects in the Data Service. Open the web interface of your IED and launch the Data Service app. 
 
 ### Configure the adapter
 
