@@ -110,7 +110,7 @@ Edit the settings:
 
 Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
-Deploy the project and start it.
+Deploy the project and start it. Click first on the "Deploy" button and after it on the "Start project" button.
 
 
 ## Configure Data Service
