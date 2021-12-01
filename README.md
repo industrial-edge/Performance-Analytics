@@ -17,7 +17,7 @@ Below you can find the structure of this use case:
 ## Description
 
 ### Overview
-This use case shows how to gain added value from production data. This step time analysis can identify the causes of efficiency losses with a performance monitoring and analysis solution. This gives you better insights into production and allows you to derive actions. The solution is also suitable for existing systems. This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a fictitious automobile production with 5 assembly stations and randomly delayed steps.
+This use case shows how to gain added value from production data. With Industrial Edge you can identify the causes of efficiency losses with a performance monitoring and analysis solution. This gives you better insights into production and allows you to derive actions. The solution is also suitable for existing systems. This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a fictitious automobile production with 5 assembly stations and randomly delayed steps.
 
 
 ![overview1](docs/graphics/overview1.png)
