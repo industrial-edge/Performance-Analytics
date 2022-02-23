@@ -1,4 +1,4 @@
-# Anchor-Use-Case-Plug-and-Analyze 
+# Performance Analytics
 
 Below you can find the structure of this use case:
 
