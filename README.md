@@ -2,16 +2,17 @@
 
 Below you can find the structure of this use case:
 
-  * [Description](#description)
-    * [Overview](#overview)
-    * [General Task](#general-task)
-  * [Requirements](#requirements)
-    * [Prerequisites](#prerequisites)
-    * [Used components](#used-components)
-  * [Configuration-steps](#configuration-steps)
-  * [Documentation](#documentation)
-  * [Contribution](#contribution)
-  * [Licence and Legal Information](#licence-and-legal-information)
+- [Performance Analytics](#performance-analytics)
+  - [Description](#description)
+    - [Overview](#overview)
+    - [General Task](#general-task)
+  - [Requirements](#requirements)
+    - [Prerequisites](#prerequisites)
+    - [Used components](#used-components)
+  - [Configuration steps](#configuration-steps)
+  - [Documentation](#documentation)
+  - [Contribution](#contribution)
+  - [Licence and Legal Information](#licence-and-legal-information)
 
 ## Description
 
@@ -53,10 +54,13 @@ Industrial Edge:
 
 *	Industrial Edge Management V 1.3.10
 *	Industrial Edge Device V 1.3.0-57
-*	SIMATIC S7 Connector V 1.3.0-57
-*	SIMATIC S7 Connector Configurator V 1.3.48
-*	IE Databus V 1.3.5
-*	IE Databus Configurator V 1.3.5
+*	SIMATIC S7 Connector V 2.0.0
+* OPC UA Connector V 2.0.0
+* Common Import Converter V2.0.0
+* Registry Service V2.0.0
+*	Common Connector Configurator V 1.9.0-11
+*	Databus V 2.2.0
+*	Databus Configurator V 2.2.0
 *	Data Service V 1.3.0-11313182
 *	Performance Insight V 1.3.1-11446312
 *	Webbrowser (Google Chrome)
@@ -68,7 +72,7 @@ You can find further information about the following steps in the [docs](docs/In
 -	Configure PLC project in TIA Portal
 - Configure PLC connections in Industrial Edge
   - Configure Databus
-  - Configure S7 Connector
+  - Configure S7 Connector and OPC UA Connector
 - Configure Data Service
   - Configure the adapter
   - Configure an asset with variables

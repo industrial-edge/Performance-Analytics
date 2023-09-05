@@ -1,16 +1,16 @@
 # Configuration Steps
 
-- [Configuration steps](#configuration-steps)
-- [Configure PLC project in TIA Portal](#configure-plc-projectin-tia-portal)
-- [Configure PLC connections in Industrial Edge](#configure-plc-connectionsin-industrial-edge)
-  - [Configure Databus](#configure-databus)
-  - [Configure S7 Connector](#configure-s7-connector)
-- [Configure Data Service](#configure-data-service)
-  - [Configure the adapter](#configure-the-adapter)
-  - [Configure an asset with variables](#configure-an-asset-with-variables)
-- [Configure Performance Insight](#configure-performance-insight)
-  - [Defining limits](#defining-limits)
-  - [Show step time analysis](#show-step-time-analysis)
+- [Configuration Steps](#configuration-steps)
+  - [Configure PLC project in TIA Portal](#configure-plc-project-in-tia-portal)
+  - [Configure PLC Connections in Industrial Edge](#configure-plc-connections-in-industrial-edge)
+    - [Configure Databus](#configure-databus)
+    - [Configure PLC Connectors](#configure-plc-connectors)
+  - [Configure Data Service](#configure-data-service)
+    - [Configure the adapter](#configure-the-adapter)
+    - [Configure an asset with variables](#configure-an-asset-with-variables)
+  - [Configure Performance Insight](#configure-performance-insight)
+    - [Defining Limits](#defining-limits)
+    - [Show step time analysis](#show-step-time-analysis)
   
 
 ## Configure PLC project in TIA Portal
@@ -71,9 +71,9 @@ When the configurator is open, add a user with the topic: `ie/#`. In this use ca
 
 Deploy the configuration.
 
-### Configure S7 Connector
+### Configure PLC Connectors
 
-Open your Management App and launch the S7 Connector configurator.
+Open your Management App and launch the OPC UA Connector configurator.
 
 Add a new data source for PLC1 with the OPC UA connector:
 
@@ -90,6 +90,14 @@ Add a second data source for PLC2 also with the OPC UA connector:
 ![S7 PLC2](graphics/S7_Connector_PLC2.png)
 
 Add the needed tags for PLC2 in the same way. Add the tags for the steps and the tag for the product.
+
+Edit the settings:
+
+![S7 Settings PW](graphics/S7_Connector_PW.png)
+
+Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
+
+Deploy the OPC UA Connector configuration.
 
 The third PLC is added as a data source with the following parameters with the S7 Connector:
 
@@ -110,7 +118,7 @@ Edit the settings:
 
 Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
-Deploy the project and start it. Click first on the "Deploy" button and after it on the "Start project" button.
+Deploy the S7 Connector configuration.
 
 
 ## Configure Data Service
