@@ -136,6 +136,8 @@ Select the available "adapters" on the left and choose the SIMATIC S7 Connector.
 
 Add the missing entries for username and password (again "edge"/"edge") and save it.
 
+Repeat this step for the OPC UA Connector.
+
 ### Configure an asset with variables
 
 Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for the main "edge" asset. Into this child asset add 5 subassets for the stations.
@@ -152,7 +154,7 @@ Following steps of the branch:
 
 ![Dataservice_Aspects2](graphics/Dataservice_aspect2.png)
 
-Link the variables that have been created by adding the aspects to the corresponding S7 Connector tags.
+Link the variables that have been created by adding the aspects to the corresponding Connector tags.
 
 ![Dataservice_Aspects3](graphics/Dataservice_aspect3.png)
 
