@@ -35,8 +35,8 @@ This sample application is based on five S7-1500 PLCs to control the manufacturi
 *	Access to an Industrial Edge Management System (IEM)
 *	Onboarded Industrial Edge Device (IED) on Industrial Edge Management
 *	Establish connection to 5 PLCs for getting data into the Edge Device
-*	Installed system configurators (S7 Connector Configurator, Databus Configurator)
-*	Installed apps on IED ( S7 Connector, Databus, Data Service, Performance Insight)
+*	Installed system configurators (Common configurator)
+*	Installed apps on IED ( S7 Connector, Databus, IIH Essentials , Performance Insight)
 *	Google Chrome (Version ≥ 72)
 
 ### Used components
@@ -52,17 +52,17 @@ TIA and PLC:
 
 Industrial Edge:
 
-*	Industrial Edge Management V 1.3.10
-*	Industrial Edge Device V 1.3.0-57
-*	SIMATIC S7 Connector V 2.0.0
-* OPC UA Connector V 2.0.0
-* Common Import Converter V2.0.0
-* Registry Service V2.0.0
-*	Common Connector Configurator V 1.9.0-11
-*	Databus V 2.2.0
-*	Databus Configurator V 2.2.0
-*	Data Service V 1.3.0-11313182
-*	Performance Insight V 1.3.1-11446312
+*	Industrial Edge Management V 1.14.10
+*	Industrial Edge Device V 1.16.1-1-a
+*	SIMATIC S7 Connector V 2.0.0-1
+* OPC UA Connector V 2.0.1-0
+* Common Import Converter V2.0.0-1
+* Registry Service V1.9.0-0
+*	Common Configurator V 1.9.0-4
+*	Databus V 2.2.0-3
+*	Databus gateway V 1.8.0-2
+*	IIH Essentials V 1.9.0
+*	Performance Insight V 1.16.1
 *	Webbrowser (Google Chrome)
 
 
@@ -73,7 +73,7 @@ You can find further information about the following steps in the [docs](docs/In
 - Configure PLC connections in Industrial Edge
   - Configure Databus
   - Configure S7 Connector and OPC UA Connector
-- Configure Data Service
+- Configure IIH Essentials 
   - Configure the adapter
   - Configure an asset with variables
 - Configure Performance Insight
