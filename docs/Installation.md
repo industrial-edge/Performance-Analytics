@@ -126,7 +126,7 @@ Steps are created for an asset as aspects in the IIH Essentials. An asset repres
 
 ![Dataservice Structure](graphics/Dataservice_Struktur.jpg)
 
-Performance Insight use this structure of assets and aspects to visualize the data in a later step. Open the web interface of your IED and launch the Data Service app. 
+Performance Insight use this structure of assets and aspects to visualize the data in a later step. Open the web interface of your IED and launch the IIH Essentials app and integrate with Common Configurator. 
 
 ### Configure the adapter
 
