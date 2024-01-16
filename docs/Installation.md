@@ -5,7 +5,7 @@
   - [Configure PLC Connections in Industrial Edge](#configure-plc-connections-in-industrial-edge)
     - [Configure Databus](#configure-databus)
     - [Configure PLC Connectors](#configure-plc-connectors)
-  - [Configure Data Service](#configure-data-service)
+  - [Configure Common Configurator](#configure-Common-Configurator)
     - [Configure the adapter](#configure-the-adapter)
     - [Configure an asset with variables](#configure-an-asset-with-variables)
   - [Configure Performance Insight](#configure-performance-insight)
@@ -121,8 +121,8 @@ Hint: Username and password should be the same as was set in the IE Databus conf
 Deploy the S7 Connector configuration.
 
 
-## Configure Data Service
-Steps are created for an asset as aspects in the data service. An asset represent the stations and for each asset the aspects represents the steps. 
+## Configure Common Configurator
+Steps are created for an asset as aspects in the IIH Essentials. An asset represent the stations and for each asset the aspects represents the steps. 
 
 ![Dataservice Structure](graphics/Dataservice_Struktur.jpg)
 
