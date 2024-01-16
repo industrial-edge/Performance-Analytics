@@ -77,7 +77,7 @@ Open your Management App and launch the OPC UA Connector configurator.
 
 Add a new data source for PLC1 with the OPC UA connector:
 
-![S7 PLC1](graphics/S7_Connector_PLC1.png)
+![datasourceplc1](graphics/datasourceplc1.PNG) 
 
 Add the needed tags. This can be done by browsing or adding them manually:
 
