@@ -18,7 +18,7 @@ This use case contains a TIA project which simulates the process. The project al
 
 1.	Open TIA portal and open the project containing the car production application (Adapt the PLC type and IP addresses to your system for each PLC and HMI)
 
-![TIA_IP_Adress](graphics/TIA_IP_Adress.png)
+![PLCPA](graphics/PLCPA.PNG)
 
 2.	Download the PLC program to the PLCs and set the PLCs into RUN
 3.	Open the HMI to control the car production application
@@ -54,10 +54,10 @@ Delay Select Screen:
 
 ## Configure PLC Connections in Industrial Edge
 
-We are now switching to the Edge part of this use case. Each of the following steps is done in the Industrial Edge system. We use the S7 Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. The data from the PLC are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
+We are now switching to the Edge part of this use case. Each of the following steps is done in the Industrial Edge system. We use the OPC UA Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. The data from the PLC are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
 
 * Databus
-* S7 Connector
+* OPC UA Connector
 
 ### Configure Databus
 
