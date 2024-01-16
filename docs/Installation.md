@@ -57,7 +57,7 @@ Delay Select Screen:
 We are now switching to the Edge part of this use case. Each of the following steps is done in the Industrial Edge system. We use the OPC UA Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. The data from the PLC are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
 
 * Databus
-* OPC UA Connector
+* S7 Connector
 
 ### Configure Databus
 
@@ -101,14 +101,14 @@ Deploy the OPC UA Connector configuration.
 
 The third PLC is added as a data source with the following parameters with the S7 Connector:
 
-![S7 PLC3](graphics/S7_Connector_PLC3.png)
+![PLC_3](graphics/PLC_3.PNG) 
 
 Also add the same tags from PLC3. Tag browsing also works with the S7+ protocol or add the tags manually.
 
 PLC4 and PLC5 are used as data sources with the S7 protocol:
 
-![S7 PLC4](graphics/S7_Connector_PLC4.png)
-![S7 PLC5](graphics/S7_Connector_PLC5.png)
+![PLC_4](graphics/PLC_4.PNG)
+![PLC_5](graphics/PLC_5.PNG)
 
 Add for these PLCs the tags respectively. With the S7 classic protocol it is only possible to add the tags manually.
 
