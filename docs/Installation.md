@@ -65,9 +65,9 @@ Open the Industrial Edge Management App and launch the Databus configurator.
 
 When the configurator is open, add a user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps.
 
-![Databus_User](graphics/add_user.png)
+![Databus_User](graphics/add_user.png) 
 
-![Databus_Configuration](graphics/databus_configuration.png)
+![userviewpa](graphics/userviewpa.PNG) 
 
 Deploy the configuration.
 
