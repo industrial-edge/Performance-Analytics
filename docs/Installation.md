@@ -87,7 +87,7 @@ The "active" variables of the individual steps are those that are in DB_HMI and 
 
 Add a second data source for PLC2 also with the OPC UA connector:
 
-![S7 PLC2](graphics/S7_Connector_PLC2.png)
+![PLC_2datasourcepa](graphics/PLC_2datasourcepa.PNG) 
 
 Add the needed tags for PLC2 in the same way. Add the tags for the steps and the tag for the product.
 
