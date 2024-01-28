@@ -49,18 +49,18 @@ TIA and PLC:
 
 Industrial Edge:
 
-*	Industrial Edge Management V 1.3.10
-*	Industrial Edge Device V 1.3.0-57
-*	SIMATIC S7 Connector V 2.0.0
-* OPC UA Connector V 2.0.0
-* Common Import Converter V2.0.0
-* Registry Service V2.0.0
-*	Common Connector Configurator V 1.9.0-11
-*	Databus V 2.2.0
-*	Databus Configurator V 2.2.0
-*	Data Service V 1.3.0-11313182
-*	Performance Insight V 1.3.1-11446312
-*	Webbrowser (Google Chrome)
+*	Industrial Edge Management Virtual
+*	Industrial Edge Device V1.16.1
+*	SIMATIC S7 Connector V2.0.0
+* OPC UA Connector V2.0.0
+* Common Import Converter V2.1.0
+* Registry Service V1.9.0
+*	Common Connector Configurator V1.9.0-11 (CHECKEAR)
+*	Databus V2.3.1
+*	Databus Configurator V 2.2.0 (CHECKEAR)
+*	IIH Essentials V1.9.0
+*	Performance Insight V1.16.1
+*	WEB Browser (Google Chrome)
 
 
 ## Configuration steps
@@ -70,7 +70,7 @@ You can find further information about the following steps in the [docs](docs/In
 - Configure PLC connections in Industrial Edge
   - Configure Databus
   - Configure S7 Connector and OPC UA Connector
-- Configure Data Service
+- Configure IIH Essentials
   - Configure the adapter
   - Configure an asset with variables
 - Configure Performance Insight
