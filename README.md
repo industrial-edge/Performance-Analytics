@@ -25,7 +25,15 @@ This specific example shows how an exemplary production line is connected, the d
 
 ### General Task
 
-This sample application is based on five S7-1500 PLCs to control the manufacturing process of a car. A sequential control system that was implemented with the TIA Portal programming language “Graph” runs on each PLC. The Industrial Edge Device shall be connected to PLC 1 + 2 via OPC UA, to PLC 3 via S7+ protocol and to PLC 4 + 5 via S7 protocol using the system Edge App “S7 Connector”. For each implemented step the PLC shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status of the step needs to be configured and connected with the related PLC status tags. The option “Step time analysis” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented sequential control systems in order to assign a reference duration for each step. The dashboard of the Edge App “Performance Insight” compares the configured and measured step time which allows localizing the steps that are causing delays.
+This sample application is based on five S7-1500 PLCs to control the manufacturing process of cars. A sequential control system that was implemented with the TIA Portal programming language “Graph” runs on each PLC. 
+
+The Industrial Edge Device connects to the PLCs using different protocols:
+
+- **PLC 1 and PLC 2** by OPC UA using the "OPC UA Connector".
+- **PLC 3** by Optimized S7 Protocol (S7+) using the "S7 Connector".
+- **PLC 4 and PLC 5** by S7 Protocol using the "S7 Connector".
+
+For each implemented step the PLC shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status of the step needs to be configured and connected with the related PLC status tags. The option “Step time analysis” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented sequential control systems in order to assign a reference duration for each step. The dashboard of the Edge App “Performance Insight” compares the configured and measured step time which allows localizing the steps that are causing delays.
 
 ## Requirements
 
