@@ -126,10 +126,9 @@ Before deploying the changes, edit the databus settings:
 
 Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
-Deploy the OPC UA Connector by clicking "Deploy"and you should see this both data sources correctly deployed as shown:
+Deploy the OPC UA Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of both PLCs should have green icon, like so:
 
 ![OPC UA7](graphics/OPC_UA7.png)
-
 
 
 ### Configure S7 Connector
