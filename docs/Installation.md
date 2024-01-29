@@ -130,8 +130,14 @@ Deploy the OPC UA Connector by clicking "Deploy". After deployment the "Bus Adap
 
 ![OPC UA7](graphics/OPC_UA7.png)
 
+If any issue is presented when configuring the OPC UA Connector, check [documentation](https://support.industry.siemens.com/cs/document/109811051/opc-ua-connector?dti=0&lc=en-US)
+
 
 ### Configure S7 Connector
+
+In this section, the communication with the third PLC is configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
+
+Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" and launch it on the onboarded Edge Device.
 
 The third PLC is added as a data source with the following parameters with the S7 Connector:
 
