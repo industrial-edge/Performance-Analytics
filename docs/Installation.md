@@ -11,7 +11,10 @@
   - [Configure Performance Insight](#configure-performance-insight)
     - [Defining Limits](#defining-limits)
     - [Show step time analysis](#show-step-time-analysis)
-  
+
+In order to set up the 'Step Time Analysis' dashboard within the Performance Insights application, it is essential to understand the flow of data across the system. The following diagram illustrates how data is communicated from the PLCs to the Industrial Edge Device, and subsequently processed by the Edge applications:
+
+
 
 ## Configure PLC project in TIA Portal
 This use case contains a TIA project which simulates the process. The project also inclundes a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](../src/StepTimeAnalysis_20221129_1438.7z). The first steps are to configure the PLC project and the intruduction into the HMI screens.
