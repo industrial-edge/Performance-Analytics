@@ -17,7 +17,9 @@ Below you can find the structure of this use case:
 ## Description
 
 ### Overview
-This use case shows how to gain added value from production data. With Industrial Edge you can identify the causes of efficiency losses with a performance monitoring and analysis solution. This gives you better insights into production and allows you to derive actions. The solution is also suitable for existing systems. 
+The 'Step Time Analysis' feature of the Edge App 'Performance Insight' is used to assess the efficiency of the implemented sequential control systems. First, it needs to be synchronized with the asset model of the plant, representing the control systems in operation. This synchronization allows for the establishment of a reference duration for each step in the process. Then, on the dashboard of 'Performance Insight', the configured (or expected) step time is compared with the actual measured time during operation. 
+
+This comparison makes it easier to identify specific steps in the production process that are experiencing delays, thereby enabling more targeted and efficient corrective actions.
 
 This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a fictitious automobile production with 5 assembly stations and randomly delayed steps.
 
@@ -33,7 +35,9 @@ The Industrial Edge Device connects to the PLCs using different protocols:
 - **PLC 3** by Optimized S7 Protocol (S7+) using the "S7 Connector".
 - **PLC 4 and PLC 5** by S7 Protocol using the "S7 Connector".
 
-For each implemented step the PLC shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status of the step needs to be configured and connected with the related PLC status tags. The option “Step time analysis” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented sequential control systems in order to assign a reference duration for each step. The dashboard of the Edge App “Performance Insight” compares the configured and measured step time which allows localizing the steps that are causing delays.
+For each implemented step the PLC shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status of the step needs to be configured and connected with the related PLC status tags. 
+
+The option “Step time analysis” of the Edge App “Performance Insight” needs to be aligned with the asset model that represents the implemented sequential control systems in order to assign a reference duration for each step. This dashboard of the Edge App “Performance Insight” compares the configured and measured step time which allows localizing the steps that are causing delays.
 
 ## Requirements
 
