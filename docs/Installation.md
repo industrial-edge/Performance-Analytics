@@ -102,19 +102,19 @@ Go to the *Industrial Edge Management UI > Data Connections*, select "OPC UA Con
 
 Add a new data source for PLC1 with the OPC UA connector by clicking on "Add Data Source":
 
-![OPC UA1](graphics/OPC UA1.png)
+![OPC UA1](graphics/OPC_UA1.png)
 
 Enter your OPC Server (PLC1) details as shown in the image and click "Add":
 
-![OPC UA2](graphics/OPC UA2.png)
+![OPC UA2](graphics/OPC_UA2.png)
 
 Add the needed tags. This can be done by browsing or adding them manually. In this case, click on the "browse tags" icon:
 
-![OPC UA3](graphics/OPC UA3.png)
+![OPC UA3](graphics/OPC_UA3.png)
 
 Select and add the tags that are named "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". Also add the String variable for the product "DB_Process_Var"."Car_Type_inProduction_Text":
 
-![OPC UA5](graphics/OPC UA5.png)
+![OPC UA5](graphics/OPC_UA5.png)
 
 This variables indicates if the respective step is active right now.
 
