@@ -96,9 +96,11 @@ Then, just click **Deploy** to apply the changes:
 
 ### Configure OPC UA Connector
 
-In this part, connection with the first two PLCs are established using the OPC UA Connector. Open your Management App and launch the OPC UA Connector configurator.
+In this part, connection with the first two PLCs are established using the OPC UA Connector. 
 
-Add a new data source for PLC1 with the OPC UA connector:
+Go to the *Industrial Edge Management UI > Data Connections*, select "OPC UA Connector" and launch it on the onboarded Edge Device.
+
+Add a new data source for PLC1 with the OPC UA connector by clicking on "Add Data Source":
 
 ![S7 PLC1](graphics/S7_Connector_PLC1.png)
 
