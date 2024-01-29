@@ -82,13 +82,15 @@ In order to build this infrastructure, first, these apps must be configured corr
 
 Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" and launch it on the onboarded Edge Device.
 
-When the configurator is open, add a user (Click on the icon in the red square shown in the picture bellow) with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps.
+When the configurator is open, click on the "plus" icon in the red square shown in the picture bellow to add an user: 
 
 ![Databus_Configuration](graphics/databus_configuration.png)
 
+Add an user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps. Select "Publish and Subscribe" as permission. And lastly click "add"
+
 ![Databus_User](graphics/add_user.png)
 
-Deploy the configuration.
+Then, just click **Deploy**.
 
 ### Configure OPC UA Connector
 
