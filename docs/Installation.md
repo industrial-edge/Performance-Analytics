@@ -118,17 +118,19 @@ Select and add the tags that are named "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1
 
 This variables indicates if the respective step is active right now.
 
-Now repeat the same process for the PLC2. Then, click "Deploy" to apply the changes:
+Now repeat the same process for the PLC2. 
 
+Before deploying the changes, edit the databus settings:
 
-
-Edit the settings:
-
-![S7 Settings PW](graphics/S7_Connector_PW.png)
+![OPC UA6](graphics/OPC_UA6.png)
 
 Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
-Deploy the OPC UA Connector configuration.
+Deploy the OPC UA Connector by clicking "Deploy"and you should see this both data sources correctly deployed as shown:
+
+![OPC UA7](graphics/OPC_UA7.png)
+
+
 
 ### Configure S7 Connector
 
