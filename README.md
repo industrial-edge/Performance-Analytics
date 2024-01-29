@@ -74,7 +74,7 @@ Industrial Edge:
 * Common Import Converter V2.0.0-1
 * Registry Service V1.9.0-0
 *	Databus V2.3.1
-*	Databus Configurator V 2.3.1-4 (CHECKEAR)
+*	Databus Configurator V 2.3.1-4
 *	IIH Essentials V1.9.0
 *	Performance Insight V1.16.1
 *	WEB Browser (Google Chrome)
