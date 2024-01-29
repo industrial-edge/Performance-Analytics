@@ -116,7 +116,7 @@ Select and add the tags that are named "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1
 
 ![OPC UA5](graphics/OPC_UA5.png)
 
-This variables indicates if the respective step is active right now.
+This variables indicate if the respective step is active right now.
 
 Now repeat the same process for the PLC2. 
 
