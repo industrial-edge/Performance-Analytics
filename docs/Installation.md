@@ -96,7 +96,7 @@ Then, just click **Deploy** to apply the changes:
 
 ### Configure OPC UA Connector
 
-In this part, connection with the first two PLCs are established using the OPC UA Connector. 
+In this part, connection with the **first two PLCs** are established using the OPC UA Connector. 
 
 Go to the *Industrial Edge Management UI > Data Connections*, select "OPC UA Connector" and launch it on the onboarded Edge Device.
 
@@ -135,7 +135,7 @@ If any issue is presented when configuring the OPC UA Connector, check [document
 
 ### Configure S7 Connector
 
-In this section, the communication with the third PLC is configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
+In this section, the communication with the **third PLC** is configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
 
 Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" and launch it on the onboarded Edge Device.
 
@@ -151,7 +151,7 @@ Use the browsing tool to add the same tags as in previous PLCs, similar to the m
 
 ![S7+2](graphics/S7+2.png)
 
-Now, the communication with the fourth and fifth PLCs are set up using the S7 Connector with the S7 protocol.
+Now, the communication with the **fourth and fifth PLCs** are set up using the S7 Connector with the S7 protocol.
 
 Add a new data source for each PLC:
 
