@@ -86,7 +86,7 @@ When the configurator is open, click on the "plus" icon in the red square shown 
 
 ![Databus_Configuration](graphics/databus_configuration.png)
 
-Add an user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps. Select "Publish and Subscribe" as permission. And lastly click "add"
+Add an user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps. Select "Publish and Subscribe" as permission. And lastly, click "add"
 
 ![Databus_User](graphics/add_user.png)
 
