@@ -83,7 +83,7 @@ Industrial Edge:
 
 ## Configuration Steps
 
-You can find further information about the following steps in the [docs](docs/Installation.md#configuration-steps):
+You can find further information about the following steps in the [docs](docs/Installation.md):
 
 -	Configure PLC project in TIA Portal
 - Configure PLC connections in Industrial Edge
