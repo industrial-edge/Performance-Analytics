@@ -15,7 +15,7 @@
 
 In order to set up the 'Step Time Analysis' dashboard within the Performance Insights application, it is essential to understand the flow of data across the system. The following diagram illustrates how data is communicated from the PLCs to the Industrial Edge Device, and subsequently processed by the Edge applications:
 
-<img src="graphics/Picture1.png" alt="Data Flow Diagram for Performance Insights" width="600"/>
+<img id="flow-data" src="graphics/Picture1.png" alt="Data Flow Diagram for Performance Insights" width="600"/>
 
 To achieve this data flow, the following configurations will be explained:
 
@@ -70,7 +70,7 @@ Delay Select Screen:
 
 ## Configure PLC Connections in Industrial Edge
 
-We are now switching to the Edge part of this use case. Each of the following steps are done in the Industrial Edge system. We use the S7 Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. The data from the PLCs are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
+We are now switching to the Edge part of this use case. [Haz clic aquí para ver la imagen](#flow-data)Each of the following steps are done in the Industrial Edge system. We use the S7 Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. The data from the PLCs are transferred via OPC UA, S7 and S7+. The data is sent via the S7 connector to the Databus, where the Data Service can use the information. In order to build this infrastructure, these apps must be configured correctly:
 
 * Databus
 * S7 Connector
