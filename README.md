@@ -37,7 +37,7 @@ The Industrial Edge Device connects to the PLCs using different protocols:
 - **PLC 4** sends the "Station 4" data to the Edge Device by S7 Protocol using the "S7 Connector".
 - **PLC 5** sends the "Station 5" data to the Edge Device by S7 Protocol using the "S7 Connector".
 
-And after setting other communications requirements on the Edge Device (Explained in the [Configuration Steps](#configuration-steps)) we can use this data on the **Step Time Analysis** dashboard of the **Performance Insights** app.
+And after setting other connections requirements on the Edge Device (Explained in the [Configuration Steps](#configuration-steps)) we can use this data on the **Step Time Analysis** dashboard of the **Performance Insights** app.
 
 For each implemented step the PLC shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status of the step needs to be configured and connected with the related PLC status tags. 
 
