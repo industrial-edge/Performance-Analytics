@@ -31,9 +31,13 @@ This sample application is based on five S7-1500 PLCs to control the manufacturi
 
 The Industrial Edge Device connects to the PLCs using different protocols:
 
-- **PLC 1 and PLC 2** by OPC UA using the "OPC UA Connector".
-- **PLC 3** by Optimized S7 Protocol (S7+) using the "S7 Connector".
-- **PLC 4 and PLC 5** by S7 Protocol using the "S7 Connector".
+- **PLC 1** sends the "Station 1" data to the Edge Device by OPC UA using the "OPC UA Connector".
+- **PLC 2** sends the "Station 2" data to the Edge Device by OPC UA using the "OPC UA Connector"
+- **PLC 3** sends the "Station 3" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
+- **PLC 4** sends the "Station 4" data to the Edge Device by S7 Protocol using the "S7 Connector".
+- **PLC 5** sends the "Station 5" data to the Edge Device by S7 Protocol using the "S7 Connector".
+
+And after setting others communication requirements on the Edge Device (Explained in the [Configuration Steps](#configuration-steps)) we can use this data on the **Step Time Analysis** dashboard of the **Performance Insights** app.
 
 For each implemented step the PLC shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status of the step needs to be configured and connected with the related PLC status tags. 
 
@@ -47,7 +51,7 @@ The option “Step time analysis” of the Edge App “Performance Insight” ne
 *	Onboarded Industrial Edge Device (IED) on Industrial Edge Management
 *	Establish connection to 5 PLCs for getting data into the Edge Device
 *	Installed system configurators (S7 Connector Configurator, Databus Configurator)
-*	Installed apps on IED ( S7 Connector, Databus, Data Service, Performance Insight)
+*	Installed apps on IED (S7 Connector, Databus, IIH Essentials, Performance Insight)
 *	Google Chrome (Version ≥ 72)
 
 ### Used components
