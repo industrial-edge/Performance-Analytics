@@ -102,19 +102,25 @@ Go to the *Industrial Edge Management UI > Data Connections*, select "OPC UA Con
 
 Add a new data source for PLC1 with the OPC UA connector by clicking on "Add Data Source":
 
-![S7 PLC1](graphics/S7_Connector_PLC1.png)
+![OPC UA1](graphics/OPC UA1.png)
 
-Add the needed tags. This can be done by browsing or adding them manually:
+Enter your OPC Server (PLC1) details as shown in the image and click "Add":
 
-The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". This variables indicates if the respective step is active right now. Also add the String variable for the product "DB_Process_Var"."Car_Type_inProduction_Text".
+![OPC UA2](graphics/OPC UA2.png)
 
-![S7 PLC1 Data](graphics/S7_Connector_PLC1_Data.png)
+Add the needed tags. This can be done by browsing or adding them manually. In this case, click on the "browse tags" icon:
 
-Add a second data source for PLC2 also with the OPC UA connector:
+![OPC UA3](graphics/OPC UA3.png)
 
-![S7 PLC2](graphics/S7_Connector_PLC2.png)
+Select and add the tags that are named "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". Also add the String variable for the product "DB_Process_Var"."Car_Type_inProduction_Text":
 
-Add the needed tags for PLC2 in the same way. Add the tags for the steps and the tag for the product.
+![OPC UA5](graphics/OPC UA5.png)
+
+This variables indicates if the respective step is active right now.
+
+Now repeat the same process for the PLC2. Then, click "Deploy" to apply the changes:
+
+
 
 Edit the settings:
 
