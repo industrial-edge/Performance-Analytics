@@ -17,6 +17,17 @@ In order to set up the 'Step Time Analysis' dashboard within the Performance Ins
 
 <img src="graphics/Picture1.png" alt="Data Flow Diagram for Performance Insights" width="600"/>
 
+To achieve this data flow, the following configurations will be explained:
+
+1. **OPC UA Connector**: Configure the OPC UA Connector to establish communication with PLC 1 and PLC 2. Ensure that the OPC UA servers on these PLCs are set up to allow for data exchange.
+
+2. **S7 Connector**: Set up the S7 Connector to facilitate data transfer from PLC 3 using the S7+ protocol, and from PLC 4 and PLC 5 via the standard S7 protocol.
+
+3. **Databus Configuration**: Integrate the MQTT-Broker to allow for a seamless data flow from the OPC UA and S7 Connectors to the higher-level Industrial Edge Applications.
+
+4. **IIH Essentials**: Install and configure the IIH Essentials application to ensure that the core industrial data from your PLCs can be effectively harnessed and utilized by the Edge Device. This setup is crucial for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
+
+5. **Performance Insights Application Setup**: Within the Performance Insights application, configure the 'Step Time Analysis' feature by linking it to the respective asset models, which reflect the status of the sequential control steps from the PLCs.
 
 ## Configure PLC project in TIA Portal
 This use case contains a TIA project which simulates the process. The project also inclundes a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](../src/StepTimeAnalysis_20221129_1438.7z). The first steps are to configure the PLC project and the intruduction into the HMI screens.
