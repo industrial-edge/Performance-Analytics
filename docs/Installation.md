@@ -141,7 +141,7 @@ Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" a
 
 Add a new data source for PLC3 with the S7 Connector by clicking on "Add Data Source":
 
-![S7+0](graphics/S7+0.png)
+
 
 Enter your PLC3 details as shown in the image and click "Add":
 
