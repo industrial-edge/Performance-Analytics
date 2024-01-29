@@ -5,7 +5,7 @@
   - [Configure PLC Connections in Industrial Edge](#configure-plc-connections-in-industrial-edge)
     - [Configure Databus](#configure-databus)
     - [Configure PLC Connectors](#configure-plc-connectors)
-  - [Configure Data Service](#configure-data-service)
+  - [Configure IIH Essentials](#configure-iih-essentials)
     - [Configure the adapter](#configure-the-adapter)
     - [Configure an asset with variables](#configure-an-asset-with-variables)
   - [Configure Performance Insight](#configure-performance-insight)
