@@ -70,7 +70,7 @@ Delay Select Screen:
 
 ## Configure PLC Connections in Industrial Edge
 
-We are now switching to the Edge part of this use case. Each of the following steps are done in the Industrial Edge system and as explained in the Data Flow picure [above](#flow-data), we use the S7 Connector and OPC UA Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. Then, the data is sent via the connectors to the Databus, where the IIH Essentials can use the information for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
+We are now switching to the Edge part of this use case. Each of the following steps are done in the Industrial Edge system and, as explained in the Data Flow picure [above](#flow-data), we use the S7 Connector and OPC UA Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. Then, the data is sent via the connectors to the Databus, where the IIH Essentials can use the information for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
 
 In order to build this infrastructure, first, these apps must be configured correctly:
 
