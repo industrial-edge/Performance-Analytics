@@ -80,7 +80,7 @@ In order to build this infrastructure, first, these apps must be configured corr
 
 ### Configure Databus
 
-Open the Industrial Edge Management App and launch the Databus configurator.
+Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" and launch it on the onboarded Edge Device.
 
 When the configurator is open, add a user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps.
 
