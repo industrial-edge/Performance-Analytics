@@ -70,7 +70,7 @@ Delay Select Screen:
 
 ## Configure PLC Connections in Industrial Edge
 
-We are now switching to the Edge part of this use case. Each of the following steps are done in the Industrial Edge system and, as explained in the Data Flow picure [above](#flow-data), we use the S7 Connector and OPC UA Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. Then, the data is sent via the connectors to the Databus, where the IIH Essentials can use the information for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
+We are now switching to the Edge part of this use case. Each of the following steps are done in the Industrial Edge system and, as explained in the Data Flow picture [above](#flow-data), we use the S7 Connector and OPC UA Connector on the Industrial Edge Device (IED) to read data from the PLCs and provide the data. Then, the data is sent via the connectors to the Databus, where the IIH Essentials can use the information for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
 
 In order to build this infrastructure, first, these apps must be configured correctly:
 
@@ -82,11 +82,11 @@ In order to build this infrastructure, first, these apps must be configured corr
 
 Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" and launch it on the onboarded Edge Device.
 
-When the configurator is open, add a user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps.
-
-![Databus_User](graphics/add_user.png)
+When the configurator is open, add a user (Click on the icon in the red square shown in the picture bellow) with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps.
 
 ![Databus_Configuration](graphics/databus_configuration.png)
+
+![Databus_User](graphics/add_user.png)
 
 Deploy the configuration.
 
