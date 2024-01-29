@@ -76,9 +76,9 @@ When the configurator is open, add a user with the topic: `ie/#`. In this use ca
 
 Deploy the configuration.
 
-### Configure PLC Connectors
+### Configure OPC UA Connector
 
-Open your Management App and launch the OPC UA Connector configurator.
+In this part, connection with the first two PLCs are established using the OPC UA Connector. Open your Management App and launch the OPC UA Connector configurator.
 
 Add a new data source for PLC1 with the OPC UA connector:
 
@@ -104,6 +104,8 @@ Hint: Username and password should be the same as was set in the IE Databus conf
 
 Deploy the OPC UA Connector configuration.
 
+### Configure S7 Connector
+
 The third PLC is added as a data source with the following parameters with the S7 Connector:
 
 ![S7 PLC3](graphics/S7_Connector_PLC3.png)
@@ -126,8 +128,8 @@ Hint: Username and password should be the same as was set in the IE Databus conf
 Deploy the S7 Connector configuration.
 
 
-## Configure Data Service
-Steps are created for an asset as aspects in the data service. An asset represent the stations and for each asset the aspects represents the steps. 
+## Configure IIH Essentials
+Steps are created for an asset as aspects in IIH Essentilas and automatically applied in Performance Insight. An asset represents, for this example, a car production "Station". and for each asset the aspects represents the steps. 
 
 ![Dataservice Structure](graphics/Dataservice_Struktur.jpg)
 
