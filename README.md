@@ -81,9 +81,20 @@ Industrial Edge:
 *	WEB Browser (Google Chrome)
 
 
-## Configuration steps
+## Configuration Steps
 
-You can find further information about the following steps in the [docs](docs/Installation.md#configuration-steps)
+You can find further information about the following steps in the [docs](docs/Installation.md#configuration-steps):
+
+-	Configure PLC project in TIA Portal
+- Configure PLC connections in Industrial Edge
+  - Configure Databus
+  - Configure S7 Connector and OPC UA Connector
+- Configure IIH Essentials
+  - Configure the adapter
+  - Configure an asset with variables
+- Configure Performance Insight
+  - Defining limits
+  - Show step time analysis
 
 ## Documentation
 
