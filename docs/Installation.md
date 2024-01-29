@@ -167,7 +167,7 @@ Then, add the same tags as in previous PLCs. However, the S7 classic protocol it
 
 
 
-Edit the settings:
+Before deploying the changes, edit the databus settings:
 
 ![S7 Settings PW](graphics/S7_Connector_PW.png)
 
