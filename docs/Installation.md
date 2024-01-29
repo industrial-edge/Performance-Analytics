@@ -139,18 +139,33 @@ In this section, the communication with the third PLC is configured using the S7
 
 Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" and launch it on the onboarded Edge Device.
 
-The third PLC is added as a data source with the following parameters with the S7 Connector:
+Add a new data source for PLC3 with the S7 Connector by clicking on "Add Data Source":
 
-![S7 PLC3](graphics/S7_Connector_PLC3.png)
+![S7+0](graphics/S7+0.png)
 
-Also add the same tags from PLC3. Tag browsing also works with the S7+ protocol or add the tags manually.
+Enter your PLC3 details as shown in the image and click "Add":
 
-PLC4 and PLC5 are used as data sources with the S7 protocol:
+![S7+1](graphics/S7+1.png)
 
-![S7 PLC4](graphics/S7_Connector_PLC4.png)
-![S7 PLC5](graphics/S7_Connector_PLC5.png)
+Use the browsing tool to add the same tags as in previous PLCs, similar to the method used during the OPC UA Connector configuration:
 
-Add for these PLCs the tags respectively. With the S7 classic protocol it is only possible to add the tags manually.
+![S7+2](graphics/S7+2.png)
+
+Now, the communication with the fourth and fifth PLCs are set up using the S7 Connector with the S7 protocol.
+
+Add a new data source for each PLC:
+
+PLC4 data source configuration:
+
+IMAGEN
+
+PLC5 data source configuration:
+
+IMAGEN
+
+Then, add the same tags as in previous PLCs. However, the S7 classic protocol it is only possible to add the tags manually.
+
+
 
 Edit the settings:
 
