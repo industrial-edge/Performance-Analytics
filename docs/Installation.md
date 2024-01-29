@@ -90,7 +90,7 @@ Add an user with the topic: `ie/#`. In this use case we use the credentials "edg
 
 ![Databus_User](graphics/add_user.png)
 
-Then, just click **Deploy**:
+Then, just click **Deploy** to apply the changes:
 
 ![Deployment](graphics/deploy_databus.png)
 
