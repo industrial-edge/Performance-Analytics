@@ -12,8 +12,10 @@
     - [Defining Limits](#defining-limits)
     - [Show step time analysis](#show-step-time-analysis)
 
+
 In order to set up the 'Step Time Analysis' dashboard within the Performance Insights application, it is essential to understand the flow of data across the system. The following diagram illustrates how data is communicated from the PLCs to the Industrial Edge Device, and subsequently processed by the Edge applications:
 
+![Data Flow](graphics/Picture1.png)
 
 
 ## Configure PLC project in TIA Portal
