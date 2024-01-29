@@ -128,7 +128,7 @@ Hint: Username and password should be the same as was set in the IE Databus conf
 
 Deploy the OPC UA Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of both PLCs should have green icon, like so:
 
-![OPC UA7](graphics/OPC_UA7.png)
+![OPC UA7](graphics/OPCUA7.png)
 
 If any issue is presented when configuring the OPC UA Connector, check [documentation](https://support.industry.siemens.com/cs/document/109811051/opc-ua-connector?dti=0&lc=en-US)
 
