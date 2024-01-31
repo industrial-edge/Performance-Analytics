@@ -163,11 +163,13 @@ PLC5 data source configuration:
 
 IMAGEN
 
-Note that with the S7 classic protocol, tags can only be added manually or imported directly from the TIA Portal Project. For this scenario, we will import the tags using the 'SIMATIC SCADA EXPORT V16' tool. Please install this tool on the machine where the TIA Portal is operational. After installation go to the TIA Portal Project, right click on the PLC4 and click on "Export to SIMATIC SCADA":
+Note that with the S7 classic protocol, tags can only be added manually or imported directly from the TIA Portal Project. 
+
+For this scenario, we will import the tags using the 'SIMATIC SCADA EXPORT V16' tool. Please install this tool on the machine where the TIA Portal is operational. After installation go to the TIA Portal Project, right click on the PLC4 and click on "Export to SIMATIC SCADA":
 
 ![export1](graphics/export1.png)
 
-Now, click on the "Import Tags" icon on the PLC4 data source and upload the exported file from TIA Portal and add the same tags as in previous PLCs:
+Now, click on the "Import Tags" icon on the PLC4 data source and upload the file that was exported from TIA Portal and add the same tags as in previous PLCs:
 
 IMAGEN
 
