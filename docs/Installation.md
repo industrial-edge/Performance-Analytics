@@ -132,11 +132,7 @@ Deploy the OPC UA Connector by clicking "Deploy". After deployment the "Bus Adap
 
 If any issue is presented when configuring the OPC UA Connector, check [documentation](https://support.industry.siemens.com/cs/document/109811051/opc-ua-connector?dti=0&lc=en-US)
 
-
 ### Configure S7 Connector
-
-
-
 
 In this section, the communication with the **third PLC** is configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
 
@@ -195,9 +191,9 @@ Steps are created for an asset as aspects in IIH Essentilas and automatically ap
 
 Performance Insight use this structure of assets and aspects to visualize the data in a later step. Open the web interface of your IED and launch the Data Service app. 
 
-### Configure the adapter
+### Configure the Connectors
 
-Select the available "adapters" on the left and choose the SIMATIC S7 Connector. Click the edit icon on the right to open the adapter configuration.
+Select the available "connectors" on the left and choose the SIMATIC S7 Connector and the OPC UA. Click the edit icon on the top right to open the connector configuration and switch the "Status" to active.
 
 ![Dataservice Adapter Configuration](graphics/Dataservice_Adapter_Configuration.png)
 
