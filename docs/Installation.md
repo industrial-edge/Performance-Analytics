@@ -135,6 +135,9 @@ If any issue is presented when configuring the OPC UA Connector, check [document
 
 ### Configure S7 Connector
 
+
+
+
 In this section, the communication with the **third PLC** is configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
 
 Go to the *Industrial Edge Management UI > Data Connections*, select "S7 Connector" and launch it on the onboarded Edge Device.
