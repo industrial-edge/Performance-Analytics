@@ -137,7 +137,7 @@ If any issue is presented when configuring the OPC UA Connector, check [document
 
 In this section, the communication with the **third PLC** is configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
 
-Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" and launch it on the onboarded Edge Device.
+Go to the *Industrial Edge Management UI > Data Connections*, select "S7 Connector" and launch it on the onboarded Edge Device.
 
 Add a new data source for PLC3 with the S7 Connector by clicking on "Add Data Source":
 
@@ -163,18 +163,25 @@ PLC5 data source configuration:
 
 IMAGEN
 
-Then, add the same tags as in previous PLCs. However, the S7 classic protocol it is only possible to add the tags manually.
+Note that with the S7 classic protocol, tags can only be added manually or imported directly from the TIA Portal Project. For this scenario, we will import the tags using the 'SIMATIC SCADA EXPORT V16' tool. Please install this tool on the machine where the TIA Portal is operational. After installation go to the TIA Portal Project, right click on the PLC4 and click on "Export to SIMATIC SCADA":
 
+![export1](graphics/export1.png)
 
+Now, click on the "Import Tags" icon on the PLC4 data source and upload the exported file from TIA Portal and add the same tags as in previous PLCs:
 
-Before deploying the changes, edit the databus settings:
+IMAGEN
+
+Repeat the same process for the PLC5
+
+Before deploying the connector, edit the databus settings:
 
 ![S7 Settings PW](graphics/S7_Connector_PW.png)
 
 Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
-Deploy the S7 Connector configuration.
+Deploy the S7 Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of all PLCs should have green icon, like so:
 
+IMAGEN
 
 ## Configure IIH Essentials
 Steps are created for an asset as aspects in IIH Essentilas and automatically applied in Performance Insight. An asset represents, for this example, a car production "Station". and for each asset the aspects represents the steps. 
