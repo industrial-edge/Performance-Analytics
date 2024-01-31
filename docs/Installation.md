@@ -185,15 +185,24 @@ Deploy the S7 Connector by clicking "Deploy". After deployment the "Bus Adaptor"
 IMAGEN
 
 ## Configure IIH Essentials
+
 Steps are created for an asset as aspects in IIH Essentilas and automatically applied in Performance Insight. An asset represents, for this example, a car production "Station". and for each asset the aspects represents the steps. 
 
 ![Dataservice Structure](graphics/Dataservice_Struktur.jpg)
 
 Performance Insight use this structure of assets and aspects to visualize the data in a later step. Open the web interface of your IED and launch the Data Service app. 
 
+### Configure the Databus
+
+Firstly, Databus needs to be configured on IIH Essentials. To do that go to *Edge Device UI > Apps*, open IIH Essentials and go to *Settings > Databus Settings*, click on the edit icon:
+
+IMAGEN 
+
+Enter the needed data and click **save**.
+
 ### Configure the Connectors
 
-Select the available "connectors" on the left and choose the SIMATIC S7 Connector and the OPC UA. Click the edit icon on the top right to open the connector configuration and switch the "Status" to active.
+Secondly, connectors need to be configured on IIH Essentials. To achive this, go to *Connectors* tab and select the available connectors on the left, for this case, SIMATIC S7 Connector and the OPC UA shoud be available. Click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active.
 
 ![Dataservice Adapter Configuration](graphics/Dataservice_Adapter_Configuration.png)
 
