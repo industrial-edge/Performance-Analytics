@@ -174,7 +174,7 @@ Performance Insight use this structure of assets and aspects to visualize the da
 
 Firstly, Databus needs to be configured on IIH Essentials. To do that go to *Edge Device UI > Apps*, open IIH Essentials and go to *Settings > Databus Settings*, click on the edit icon:
 
-IMAGEN 
+![Databus_IIH](graphics/Databus_IIH.png)
 
 Enter the needed data and click **save**.
 
