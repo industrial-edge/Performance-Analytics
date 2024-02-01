@@ -246,7 +246,16 @@ Repeat this process for every station.
 
 After finishing the configuration of the IIH Essentials, open the Performance Insight application on the IED. With this appliation it is possible to get information about the duration of defined steps and observe limits of individual steps and sequences.
 
-The asset structure that was created in Data Service can also be found in Performance Insight. The next step is to specify the limits for each step in the asset configuration.
+The asset structure that was created in IIH Essentials can also be found in Performance Insight, just click on the "My Plant" icon:
+
+![MyPlant](graphics/MyPlant.png)
+
+Select any station and you will see an auto-generated "Step Time Analysis" dashboard got created by Performance Insights as soon as we created the steps on IIH Essentials, as shown in the picture above.
+
+Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen:
+
+
+
 
 ### Defining Limits
 
