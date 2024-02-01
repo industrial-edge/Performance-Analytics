@@ -160,7 +160,7 @@ Hint: Username and password should be the same as was set in the IE Databus conf
 
 Deploy the S7 Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of all PLCs should have green icon, like so:
 
-IMAGEN
+![S7_Deploy](graphics/S7_Deploy.png)
 
 ## Configure IIH Essentials
 
