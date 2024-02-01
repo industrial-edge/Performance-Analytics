@@ -188,9 +188,9 @@ Select the connectors and click the edit icon on the top right to open the conne
 
 ![ConnectorStatus](graphics/ConnectorStatus.png)
 
-Add the missing entries for username and password (again "edge"/"edge") and save it.
+The status of both connectors must be "Active" and the connector indicator shows "Connected", as illustrated below:
 
-Repeat this step for the OPC UA Connector.
+![ConnectorsStatus](graphics/ConnectorsStatus.png)
 
 ### Configure an asset with variables
 
