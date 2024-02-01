@@ -134,9 +134,9 @@ If any issue is presented when configuring the OPC UA Connector, check [document
 
 ### Configure S7 Connector
 
-In this section, the communication with the **third PLC** is configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
+In this section, the communication with the **third, fourth and fifth PLCs** are configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
 
-Go to the *Industrial Edge Management UI > Data Connections*, select "S7 Connector" and launch it on the onboarded Edge Device.
+Let's start with the PLC3 configuration. Go to the *Industrial Edge Management UI > Data Connections*, select "S7 Connector" and launch it on the onboarded Edge Device.
 
 Add a new data source for PLC3 with the S7 Connector by clicking on "Add Data Source":
 
@@ -150,27 +150,7 @@ Use the browsing tool to add the same tags as in previous PLCs, similar to the m
 
 ![S7+2](graphics/S7+2.png)
 
-Now, the communication with the **fourth and fifth PLCs** are set up using the S7 Connector with the S7 protocol.
-
-Add a new data source for each PLC:
-
-PLC4 data source configuration:
-
-IMAGEN
-
-PLC5 data source configuration:
-
-IMAGEN
-
-Note that with the S7 classic protocol, tags can only be added manually or imported directly from the TIA Portal Project. 
-
-For this scenario, we will import the tags from TIA Portal using... (SEGUN DANIEL HAY UN ADD-IN FUNCTION QUE SE DEBE INSTALAR EN EL TIA PORTAL PARA PODER EXPORTAR LOS TAGS DE UN DB CON FORMATO .XML)
-
-Now, click on the "Import Tags" icon on the PLC4 data source and upload the file that was exported from TIA Portal and add the same tags as in previous PLCs:
-
-IMAGEN
-
-Repeat the same process for the PLC5
+Now, repeat the same procedure for the fourth and fifth PLC.
 
 Before deploying the connector, edit the databus settings:
 
