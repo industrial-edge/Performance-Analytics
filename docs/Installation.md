@@ -154,7 +154,7 @@ Now, repeat the same procedure for the fourth and fifth PLC.
 
 Before deploying the connector, edit the databus settings:
 
-![S7 Settings PW](graphics/S7_Connector_PW.png)
+![Databus_S7](graphics/Databus_S7.png)
 
 Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
