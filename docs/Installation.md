@@ -242,11 +242,9 @@ For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable
 
 Repeat this process for every station.
 
-![Dataservice_Aspects4](graphics/Dataservice_aspect4.png)
-
 ## Configure Performance Insight
 
-After finishing the configuration of the Data Service, open the Performance Insight application on the IED. With this appliation it is possible to get information about the duration of defined steps and observe limits of individual steps and sequences.
+After finishing the configuration of the IIH Essentials, open the Performance Insight application on the IED. With this appliation it is possible to get information about the duration of defined steps and observe limits of individual steps and sequences.
 
 The asset structure that was created in Data Service can also be found in Performance Insight. The next step is to specify the limits for each step in the asset configuration.
 
