@@ -196,9 +196,9 @@ Now, both connectors are correctly configured on IIH Essentials.
 
 ### Configure an asset with variables
 
-Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for the main "edge" asset. Into this child asset add 5 subassets for the stations.
+Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for the main "edge" asset by clicking on the three points icon and select "Add child asset". Into this child asset add 5 subassets for the stations:
 
-![Dataservice_Assets](graphics/Dataservice_Assets.png)
+
 
 Create an aspect for every step. The first step of each branch (step 2 and step 11) must be configured as initial step. This is necessary to mark the beginning of the sequence and to link the corresponding product for the branch.
 
