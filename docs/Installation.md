@@ -192,6 +192,8 @@ The status of both connectors must be "Active" and the connector indicator shows
 
 ![ConnectorsStatus](graphics/ConnectorsStatus.png)
 
+Now, both connectors are correctly configured on IIH Essentials.
+
 ### Configure an asset with variables
 
 Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for the main "edge" asset. Into this child asset add 5 subassets for the stations.
