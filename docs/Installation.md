@@ -194,7 +194,7 @@ The status of both connectors must be "Active" and the connector indicator shows
 
 Now, both connectors are correctly configured on IIH Essentials.
 
-### Configure Assests
+### Configure Assets
 
 Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for the main "edge" asset by clicking on the three points icon and select "Add child asset". Into this child asset add 5 subassets for the stations:
 
@@ -211,6 +211,10 @@ Next, choose the connector associated with the "PLC_1" data source. Click on "PL
 All tags have now been successfully added to the 'Station 1' asset:
 
 ![Station1TagsAdded](graphics/Station1TagsAdded.png)
+
+Repeat this process for the rest of the assets.
+
+### Configure Aspects
 
 Create an aspect for every step. The first step of each branch (step 2 and step 11) must be configured as initial step. This is necessary to mark the beginning of the sequence and to link the corresponding product for the branch.
 
