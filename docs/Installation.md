@@ -250,7 +250,7 @@ The asset structure that was created in IIH Essentials can also be found in Perf
 
 ![MyPlant](graphics/MyPlant.png)
 
-Select any station and you will see an auto-generated "Step Time Analysis" dashboard got created by Performance Insights as soon as we created the steps on IIH Essentials, as shown in the picture above.
+Select any station and you will see that an auto-generated "Step Time Analysis" dashboard got created by Performance Insights as soon as we created the steps on IIH Essentials, as shown in the picture above.
 
 Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen:
 
