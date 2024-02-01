@@ -200,6 +200,18 @@ Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for
 
 ![IIHAssets](graphics/IIHAssets.png)
 
+For each station, it's necessary to add tags from the corresponding data source. For instance, "PLC_1" is the data source for Station 1. To include the tags, select "Station 1" and then choose "Add variable" on the "Connectivity" tab:
+
+![Station1](graphics/Station1.png)
+
+Next, choose the connector associated with the "PLC_1" data source. Click on "PLC_1" to incorporate all tags from this source. To finalize, simply click "Add variable":
+
+![Station1AddTags](graphics/Station1AddTags.png)
+
+All tags have now been successfully added to the 'Station 1' asset:
+
+![Station1TagsAdded](graphics/Station1TagsAdded.png)
+
 Create an aspect for every step. The first step of each branch (step 2 and step 11) must be configured as initial step. This is necessary to mark the beginning of the sequence and to link the corresponding product for the branch.
 
 First step of the branch:
