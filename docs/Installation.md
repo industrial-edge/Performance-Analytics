@@ -236,7 +236,7 @@ Then, link the variable "Product" to the tag '"DB_Process_Var"."Car_Type_inProdu
 
 ![Station1Product](graphics/Station1Product.png)
 
-For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2:
+For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2. After this, all steps be in "connected" state:
 
 ![Station1FinalSteps](graphics/Station1FinalSteps.png)
 
