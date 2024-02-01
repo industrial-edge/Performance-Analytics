@@ -218,19 +218,27 @@ Repeat this process for the rest of the assets.
 
 ### Configure Aspects
 
-Create an aspect for every step. The first step of each branch (step 2 and step 11) must be configured as initial step. This is necessary to mark the beginning of the sequence and to link the corresponding product for the branch.
+Now, it's time to create the Steps that will be displayed in the **Step Time Analysis** dashboard on Performance Insights app. For every step, the PLC should supply a tag indicating the status of the step's activity.
 
-First step of the branch:
+For each station, Step 2 is designated as the initial step, and its aspect type is assigned as 'StepChainAnalysis_InitialStep'. To do this, go to *Station 1 > Aspects > Add Aspect* and type the "Step 2" settings:
 
-![Dataservice_Aspects1](graphics/Dataservice_aspect1.png)
+![Station1Aspect](graphics/Station1Aspect.png)
 
-Following steps of the branch:
+For the remaining steps (3rd to 11th), assign the aspect type 'StepChainAnalysis_InitialStep', as illustrated:
 
-![Dataservice_Aspects2](graphics/Dataservice_aspect2.png)
+![Station1Step](graphics/Station1Step.png)
 
-Link the variables that have been created by adding the aspects to the corresponding Connector tags.
+Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag 'DB_HMI.ARG1_Seq1_S2' on the asset connectivity tab, as follows:
 
-![Dataservice_Aspects3](graphics/Dataservice_aspect3.png)
+![Station1ActiveStep](graphics/Station1ActiveStep.png)
+
+Then, link the variable "Product" to the tag '"DB_Process_Var"."Car_Type_inProduction_Text"' on the asset connectivity tab, as follows:
+
+![Station1Product](graphics/Station1Product.png)
+
+For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2:
+
+![Station1FinalSteps](graphics/Station1FinalSteps.png)
 
 Repeat this process for every station.
 
