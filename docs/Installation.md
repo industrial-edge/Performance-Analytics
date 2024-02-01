@@ -230,7 +230,7 @@ For the remaining steps (3rd to 11th), assign the aspect type 'StepChainAnalysis
 
 Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag 'DB_HMI.ARG1_Seq1_S2' on the asset connectivity tab, as follows:
 
-![Station1ActiveStep](graphics/Station1ActiveStep.png)
+![Station1ActiveState](graphics/Station1ActiveState.png)
 
 Then, link the variable "Product" to the tag '"DB_Process_Var"."Car_Type_inProduction_Text"' on the asset connectivity tab, as follows:
 
