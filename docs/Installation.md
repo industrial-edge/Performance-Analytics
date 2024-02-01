@@ -180,9 +180,13 @@ Enter the needed data and click **save**.
 
 ### Configure the Connectors
 
-Secondly, connectors need to be configured on IIH Essentials. To achive this, go to *Connectors* tab and select the available connectors on the left, for this case, SIMATIC S7 Connector and the OPC UA shoud be available. Click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active.
+Secondly, connectors need to be configured on IIH Essentials. To achive this, go to *Connectors* tab and add the "OPC UA Connector" and "S7 Connector" using the plus icon:
 
-![Dataservice Adapter Configuration](graphics/Dataservice_Adapter_Configuration.png)
+![IIHConnector](graphics/IIHConnector.png)
+
+Select the connectors and click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active:
+
+![ConnectorStatus](graphics/ConnectorStatus.png)
 
 Add the missing entries for username and password (again "edge"/"edge") and save it.
 
