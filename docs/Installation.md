@@ -252,15 +252,28 @@ The asset structure that was created in IIH Essentials can also be found in Perf
 
 Select any station on the asset structure and you will see that an auto-generated "Step Time Analysis" dashboard got created by Performance Insights as soon as we created the steps on IIH Essentials, as shown in the picture above.
 
-Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen. If the TIA Portal project has been uploaded to the PLCs and the program initiated on the HMI, data should now display on the dashboard:
+Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen. If the TIA Portal project has been uploaded to the PLCs and the program initiated on the HMI, data should now display on the dashboard. In this example select the Product as "Red" on the HMI:
 
 ![StationDashboard](graphics/StationDashboard.png)
 
-This is a better description of funtionalities of the button and items on the Step Time Analysis Dashboard:
+Here's a more detailed overview of the functions for the buttons and elements on the Step Time Analysis Dashboard:
+
+![Dashboard](graphics/DASHBOARD.png)
+
+1) Select a product for which the step time analysis is to be displayed.
+2) Switch the trend view.
+3) Select between "Actual" and "Planned" steps.
+4) Execution time of the faulty sequences.
+5) Displaying the steps with highest fault rate.
+6) Select a period for which the step time analysis is to be displayed
+7) Switch to the limit definition in the Step Time Analysis configuration.
+8) Sequence overview: Display and selection of a specific sequence for detailed display.
+9) Sequence details: Displaying all sequences and defined steps in the selected period. When selecting a single step, the 
+Trend view of the step opens.
+
+In this instance, a single sequence has occurred at Station 1, as depicted in the graphic above. Now, limits need to be defined in the Step Time Analysis configuration tab, as shown:
 
 
-
-In this instance, a single sequence has occurred at Station 1, as depicted in the graphic above. Now, limits need to be .
 
 
 ### Defining Limits
