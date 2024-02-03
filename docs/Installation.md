@@ -254,11 +254,9 @@ Select any station on the asset structure and you will see that an auto-generate
 
 Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen. If the TIA Portal project has been uploaded to the PLCs and the program initiated on the HMI, data should now display on the dashboard. In this example select the Product as "Red" on the HMI:
 
-![StationDashboard](graphics/StationDashboard.png)
+![StationDashboard](graphics/DASHBOARD.png)
 
 Here's a more detailed overview of the functions for the buttons and elements on the Step Time Analysis Dashboard:
-
-![Dashboard](graphics/DASHBOARD.png)
 
 1) Select a product for which the step time analysis is to be displayed.
 2) Switch the trend view.
