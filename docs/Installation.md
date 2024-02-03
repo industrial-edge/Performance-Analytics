@@ -230,15 +230,15 @@ For the remaining steps (3rd to 11th), assign the aspect type 'StepChainAnalysis
 
 Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag 'DB_HMI.ARG1_Seq1_S2' on the asset connectivity tab, as follows:
 
-![Station1ActiveState](graphics/Station1ActiveState.png)
+![Station1ActiveState](graphics/Station1ActiveState1.png)
 
 Then, link the variable "Product" to the tag '"DB_Process_Var"."Car_Type_inProduction_Text"' on the asset connectivity tab, as follows:
 
-![Station1Product](graphics/Station1Product.png)
+![Station1Product](graphics/Station1Product1.png)
 
 For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2. After this, all steps be in "connected" state:
 
-![Station1FinalSteps](graphics/Station1FinalSteps.png)
+![Station1FinalSteps](graphics/Station1FinalSteps1.png)
 
 Repeat this process for every station.
 
@@ -252,9 +252,15 @@ The asset structure that was created in IIH Essentials can also be found in Perf
 
 Select any station on the asset structure and you will see that an auto-generated "Step Time Analysis" dashboard got created by Performance Insights as soon as we created the steps on IIH Essentials, as shown in the picture above.
 
-Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen:
+Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen. If the TIA Portal project has been uploaded to the PLCs and the program initiated on the HMI, data should now display on the dashboard:
+
+![StationDashboard](graphics/StationDashboard.png)
+
+This is a better description of funtionalities of the button and items on the Step Time Analysis Dashboard:
 
 
+
+In this instance, a single sequence has occurred at Station 1, as depicted in the graphic above. Now, limits need to be .
 
 
 ### Defining Limits
