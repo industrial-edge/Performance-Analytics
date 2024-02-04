@@ -269,49 +269,29 @@ Here's a more detailed overview of the functions for the buttons and elements on
 9) Sequence details: Displaying all sequences and defined steps in the selected period. When selecting a single step, the 
 Trend view of the step opens.
 
-In this instance, a single sequence has occurred at Station 1, as depicted in the graphic above. Now, limits need to be defined in the Step Time Analysis configuration tab, as shown:
-
-
-
-
 ### Defining Limits
 
-If no Step time analysis has yet been configured in Performance Insight, the "Define Limits" button is visible. Click on the button.
+In this instance, a single sequence has occurred at Station 1, as depicted in the graphic above. Now, limits need to be defined in the Step Time Analysis configuration tab, as shown:
 
-![Performance Insight Setting Icon_1](graphics/PerformanceInsight_Settings_icon_1.png)
+![Station1STEPTIME](graphics/Station1STEPTIME.png)
 
-To change the limits for the steps in the sequential control system, click on the gear icon on the right.
+In the "​Limits​" column (yellow square), set the values for the planned and actual duration of the respective step. When the value is exceeded, the step is evaluated as faulty.
 
-![Performance Insight Setting Icon](graphics/PerformanceInsight_Settings_icon.png)
+​Under "​Overview​" (green square), you can automatically assign a limit to all steps using a mathematical function. To use this function, follow these steps:
 
-Choose a product from the list of available products. Click on the gear icon of the product. 
+- ​Decide whether to assign the automatic limit to the actual, planned or all step limits.
+- From the drop-down menu, you select the minimum or the maximum as initial value of the step.
+- As the factor, you specify a percentage that is added to the initial value.
+- Click "​Apply to all steps​".
 
-A list with all steps of this product is displayed. Open the dropdown menu with the text "Apply to all step limits". Specify a percentage (e.g. 5%) that is added to the initial value and click Apply. A limit is calculated for all steps based on the respective limits and entered in the "Planned step time limit" column.
-
-![Performance Insight Set Limit](graphics/PerformanceInsight_setLimit.png)
-
-The time limits are set in the fields. Click the "Save" button.
-
-![Performance Insight Set Time](graphics/PerformanceInsight_setTime.png)
+​A limit is calculated for selected steps on the basis of the respective limit values and entered in the corresponding column for limit values. To save the changes and switch to the dashboard view, click "​Save​". ​If you want to continue working in the same view after saving, click "​Save​ & ​Continue​". To exit the view without saving, click "​Cancel​".
 
 ### Show step time analysis
 
-When you have created steps for the asset in the Data Service and when you have defined the limits then the step time analysis is automatically 
-displayed in the "Step time analysis" dashboard.
+When you have created steps for the asset in the Data Service and when you have defined the limits then the step time analysis is automatically displayed in the "Step time analysis" dashboard.
+
+![StepTime](graphics/StepTime.png)
+
+The image above shows the Step Time Analysis overview screen where five sequences have been completed. In every sequence, only the 7th step took longer than the expected completion time, marking it as faulty in red.
 
 With the help of the "Overview" screen you can get all information about the sequences of a specific product for a specified time period. When the step is gray the step time is within the defined limits. A step displayed in red is outside the defined limits.
-
-![Performance Insight Overview](graphics/PerformanceInsight_Overview.png)
-
-The analysis overview is displayed in the "Step time analysis" dashboard with the following options:
-* Switching to the trend view
-* Displaying the number of faulty sequences
-* Execution time of the faulty sequences
-* Selecting a product for which the step time analysis is to be displayed
-* Selecting a time period for which the step time analysis is to be displayed
-* Downloading a report in CSV format
-* Switching to the limit definition in the Asset Configuration
-* Displaying the steps with highest fault rate
-* Sequence overview: Display and selection of a specific sequence for detailed display
-* "Show all sequences"
-* Sequence details: Displaying all sequences in the selected time period and defined steps. When selecting a single step, the Trend view of the step opens.
