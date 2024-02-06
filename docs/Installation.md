@@ -202,20 +202,6 @@ Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for
 
 ![IIHAssets](graphics/IIHAssets.png)
 
-For each station, it's necessary to add tags from the corresponding data source. For instance, "PLC_1" is the data source for Station 1. To include the tags, select "Station 1" and then choose "Add variable" on the "Connectivity" tab:
-
-![Station1](graphics/Station1.png)
-
-Next, choose the connector associated with the "PLC_1" data source. Click on "PLC_1" to incorporate all tags from this source. To finalize, simply click "Add variable":
-
-![Station1AddTags](graphics/Station1AddTags.png)
-
-All tags have now been successfully added to the 'Station 1' asset:
-
-![Station1TagsAdded](graphics/Station1TagsAdded.png)
-
-Repeat this process for the rest of the assets.
-
 ### Configure Aspects
 
 Now, it's time to create the Steps that will be displayed in the **Step Time Analysis** dashboard on Performance Insights app. For every step, the PLC should supply a tag indicating the status of the step's activity.
