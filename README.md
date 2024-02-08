@@ -68,10 +68,11 @@ TIA and PLC:
 Industrial Edge:
 
 *	Industrial Edge Management OS V1.5.2-4
-*	Industrial Edge Device V1.16.1-1-a
+*	Industrial Edge Virtual Device V1.16.1-1-a
 *	SIMATIC S7 Connector V2.0.0-1
 * OPC UA Connector V2.0.1-0
 * Common Import Converter V2.0.0-1
+* Common Connector Configurator V1.9.1-1
 * Registry Service V1.9.0-0
 *	Databus V2.3.1
 *	Databus Configurator V 2.3.1-4
