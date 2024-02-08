@@ -88,10 +88,12 @@ You can find further information about the following steps in the [docs](docs/In
 -	Configure PLC project in TIA Portal
 - Configure PLC connections in Industrial Edge
   - Configure Databus
-  - Configure S7 Connector and OPC UA Connector
+  - Configure PLC Connectors
 - Configure IIH Essentials
-  - Configure the adapter
-  - Configure an asset with variables
+  - Configure the Databus
+  - Configure the Connectors
+  - Configure Assets
+  - Configure Aspects
 - Configure Performance Insight
   - Defining limits
   - Show step time analysis
