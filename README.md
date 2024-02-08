@@ -34,8 +34,8 @@ The Industrial Edge Device connects to the PLCs using different protocols:
 - **PLC 1** sends the "Station 1" data to the Edge Device by OPC UA using the "OPC UA Connector".
 - **PLC 2** sends the "Station 2" data to the Edge Device by OPC UA using the "OPC UA Connector"
 - **PLC 3** sends the "Station 3" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
-- **PLC 4** sends the "Station 4" data to the Edge Device by S7 Protocol using the "S7 Connector".
-- **PLC 5** sends the "Station 5" data to the Edge Device by S7 Protocol using the "S7 Connector".
+- **PLC 4** sends the "Station 4" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
+- **PLC 5** sends the "Station 5" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
 
 And after setting other connections requirements on the Edge Device (Explained in the [Configuration Steps](#configuration-steps)) we can use this data on the **Step Time Analysis** dashboard of the **Performance Insights** app.
 
