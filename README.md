@@ -78,7 +78,6 @@ Industrial Edge:
 *	Databus Configurator V 2.3.1-4
 *	IIH Essentials V1.9.0
 *	Performance Insight V1.16.1
-*	WEB Browser (Google Chrome)
 
 
 ## Configuration Steps
