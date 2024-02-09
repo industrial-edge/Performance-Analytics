@@ -21,7 +21,7 @@ The 'Step Time Analysis' dashboard of the Edge App 'Performance Insight' is used
 
 This comparison makes it easier to identify specific steps in the production process that are experiencing delays, thereby enabling more targeted and efficient corrective actions.
 
-This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a fictitious automobile production with 5 assembly stations and randomly delayed steps.
+This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a simulated automobile production with 5 assembly stations and randomly delayed steps.
 
 ![overview](docs/graphics/overview.png)
 
