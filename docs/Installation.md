@@ -208,7 +208,7 @@ For each station, Step 2 is designated as the initial step, and its aspect type 
 
 ![Station1Aspect](graphics/Station1Aspect.png)
 
-For the remaining steps (3rd to 11th), assign the aspect type 'StepChainAnalysis_InitialStep', as illustrated:
+For the remaining steps (3rd to 11th), assign the aspect type 'StepChainAnalysis_Step', as illustrated:
 
 ![Station1Step](graphics/Station1Step.png)
 
