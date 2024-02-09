@@ -72,7 +72,7 @@ Industrial Edge:
 *	SIMATIC S7 Connector V2.0.0-1
 * OPC UA Connector V2.0.1-0
 * Common Import Converter V2.0.0-1
-* Common Connector Configurator V1.9.0-11
+* Common Connector Configurator V1.9.1-1
 * Registry Service V1.9.0-0
 *	Databus V2.3.1
 *	Databus Configurator V 2.3.1-4
