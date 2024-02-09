@@ -6,8 +6,8 @@
     - [Configure Databus](#configure-databus)
     - [Configure PLC Connectors](#configure-plc-connectors)
   - [Configure IIH Essentials](#configure-iih-essentials)
-    - [Configure the Databus](#configure-the-databus)
-    - [Configure the Connectors](#configure-the-connectors)
+    - [Enter Databus Credentials](#enter-databus-credentials)
+    - [Link Connectors to IIH](#link-connectors-to-iih)
     - [Configure Assets](#configure-assets)
     - [Configure Aspects](#configure-aspects)
   - [Configure Performance Insight](#configure-performance-insight)
@@ -172,7 +172,7 @@ Steps are created for an asset as aspects in IIH Essentilas and automatically ap
 
 Performance Insight use this structure of assets and aspects to visualize the data in a later step. Open the web interface of your IED and launch the Data Service app. 
 
-### Configure the Databus
+### Enter Databus Credentials
 
 Firstly, Databus needs to be configured on IIH Essentials. To do that go to *Edge Device UI > Apps*, open IIH Essentials and go to *Settings > Databus Settings*, click on the edit icon:
 
@@ -180,7 +180,7 @@ Firstly, Databus needs to be configured on IIH Essentials. To do that go to *Edg
 
 Enter the needed data and click **save**.
 
-### Configure the Connectors
+### Link Connectors to IIH
 
 Secondly, connectors need to be configured on IIH Essentials. To achive this, go to *Connectors* tab and add the "OPC UA Connector" and "S7 Connector" using the plus icon:
 
