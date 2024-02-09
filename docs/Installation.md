@@ -148,7 +148,7 @@ Enter your PLC3 details as shown in the image and click "Add":
 
 ![S7+1](graphics/S7+1.png)
 
-Use the browsing tool to add the same tags as in previous PLCs, similar to the method used during the OPC UA Connector configuration:
+Use the browse feature to add the same tags as in previous PLCs, similar to the method used during the OPC UA Connector configuration:
 
 ![S7+2](graphics/S7+2.png)
 
