@@ -89,8 +89,8 @@ You can find further information about the following steps in the [docs](docs/In
   - Configure Databus
   - Configure PLC Connectors
 - Configure IIH Essentials
-  - Configure the Databus
-  - Configure the Connectors
+  - Enter Databus Credentials.
+  - Link Connectors to IIH.
   - Configure Assets
   - Configure Aspects
 - Configure Performance Insight
