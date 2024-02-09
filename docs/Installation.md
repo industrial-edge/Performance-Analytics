@@ -272,7 +272,7 @@ In the "​Limits​" column (yellow square), set the values for the planned and
 
 ### Show step time analysis
 
-When you have created steps for the asset in the Data Service and when you have defined the limits then the step time analysis is automatically displayed in the "Step time analysis" dashboard.
+When you have created steps for the asset in IIH Essentials and you have defined the limits then the step time analysis is automatically displayed in the "Step time analysis" dashboard.
 
 ![StepTime](graphics/StepTime.png)
 
