@@ -23,7 +23,7 @@ To achieve this data flow, the following configurations will be explained:
 
 1. **OPC UA Connector**: Configure the OPC UA Connector to establish communication with PLC 1 and PLC 2. Ensure that the OPC UA servers on these PLCs are set up to allow for data exchange.
 
-2. **S7 Connector**: Set up the S7 Connector to facilitate data transfer from PLC 3 using the S7+ protocol, and from PLC 4 and PLC 5 via the standard S7 protocol.
+2. **S7 Connector**: Set up the S7 Connector to facilitate data transfer from PLC 3, PLC 4 and PLC 5 using the S7+ protocol.
 
 3. **Databus Configuration**: Integrate the MQTT-Broker to allow for a seamless data flow from the OPC UA and S7 Connectors to the higher-level Industrial Edge Applications.
 
