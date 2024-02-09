@@ -114,11 +114,9 @@ Add the needed tags. This can be done by browsing or adding them manually. In th
 
 ![OPC UA3](graphics/OPC_UA3.png)
 
-Select and add the tags that are named "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". Also add the String variable for the product "DB_Process_Var"."Car_Type_inProduction_Text":
+The "active" variables of the individual steps are those that are in DB_HMI and named with "DB_HMI"."ARG1_Seq1_S1" to "DB_HMI"."ARG1_Seq1_S19". This variables indicates if the respective step is active right now. Also add the String variable for the product "DB_Process_Var"."Car_Type_inProduction_Text".
 
 ![OPC UA5](graphics/OPC_UA5.png)
-
-These variables indicate if the respective step is active right now.
 
 Now repeat the same process for the PLC2. 
 
