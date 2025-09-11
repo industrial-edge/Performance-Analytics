@@ -78,7 +78,7 @@ Industrial Edge:
 *	IIH Essentials V2.2.1
 *	Performance Insight V1.21.1
 *	Common Connector Configurator V2.0.1
-*	Databus Configurator V 2.3.1-4
+*	Databus Configurator V3.2.2
 
 
 ## Configuration Steps
