@@ -57,7 +57,7 @@ The option “Step time analysis” of the Edge App “Performance Insight” ne
 ### Used components
 TIA and PLC:
 
-*	TIA Portal V16
+*	TIA Portal V20
 *	PLC1: CPU 1518F-4 PN/DP FW 2.8
 *	PLC2: CPU 1518F-4 PN/DP FW 2.8
 *	PLC3: CPU 1517TF-3 PN/DP FW 2.8
@@ -67,17 +67,18 @@ TIA and PLC:
 
 Industrial Edge:
 
-*	Industrial Edge Management OS V1.5.2-4
-*	Industrial Edge Virtual Device V1.16.1-1-a
-*	SIMATIC S7 Connector V2.0.0-1
-* OPC UA Connector V2.0.1-0
-* Common Import Converter V2.0.0-1
-* Common Connector Configurator V1.9.1-1
-* Registry Service V1.9.0-0
-*	Databus V2.3.1
+*	Industrial Edge Management OS V2.5.1-2
+*	Industrial Edge Virtual Device V1.22.3-1-a
+*	SIMATIC S7 Connector V2.3.1
+* OPC UA Connector V2.4.2
+* Common Import Converter V3.0.0
+* Common Configurator V2.2.1
+* Registry Service V2.0.1
+*	Databus V3.2.1
+*	IIH Essentials V2.2.1
+*	Performance Insight V1.21.1
+*	Common Connector Configurator V2.0.1
 *	Databus Configurator V 2.3.1-4
-*	IIH Essentials V1.9.0
-*	Performance Insight V1.16.1
 
 
 ## Configuration Steps
