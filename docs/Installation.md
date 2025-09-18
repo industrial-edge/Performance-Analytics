@@ -178,23 +178,22 @@ Performance Insight use this structure of assets and aspects to visualize the da
 
 Firstly, Databus needs to be configured on IIH Essentials. To do that go to *Edge Device UI > Apps*, open IIH Essentials and go to *Settings > Databus Settings*, click on the edit icon:
 
-![Databus_IIH](graphics/DatabusIIH1.png)
+![Databus_IIH](graphics/DatabuscredentialsIIHessentials.png)
 
 Enter the needed data and click **save**.
 
 ### Link Connectors to IIH
 
-Secondly, connectors need to be configured on IIH Essentials. To achive this, go to *Connectors* tab and add the "OPC UA Connector" and "S7 Connector" using the plus icon:
+Secondly, connectors need to be configured on IIH Essentials. To achive this, go to *Connectors* tab and click the "OPC UA Connector" and "S7 Connector" and it should be activated by default: 
+![IIHConnector](graphics/Connectoractivesstate.png)
 
-![IIHConnector](graphics/IIHConnector.png)
+If the connector is not in active state Select the connectors and click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active:
 
-Select the connectors and click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active:
-
-![ConnectorStatus](graphics/ConnectorStatus.png)
+![ConnectorStatus](graphicsconnecactivemanual.png)
 
 The status of both connectors must be "Active" and the connector indicator shows "Connected", as illustrated below:
 
-![ConnectorsStatus](graphics/ConnectorsStatus.png)
+![ConnectorsStatus](graphics/opcuaconnactive.png)
 
 Now, both connectors are correctly configured on IIH Essentials.
 
