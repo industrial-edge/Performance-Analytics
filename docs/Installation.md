@@ -189,7 +189,7 @@ Secondly, connectors need to be configured on IIH Essentials. To achive this, go
 
 If the connector is not in active state Select the connectors and click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active:
 
-![ConnectorStatus](graphicsconnecactivemanual.png)
+![ConnectorStatus](graphics/connecactivemanual.png)
 
 The status of both connectors must be "Active" and the connector indicator shows "Connected", as illustrated below:
 
