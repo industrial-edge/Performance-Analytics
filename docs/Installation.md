@@ -219,15 +219,15 @@ For each station, Step 2 is designated as the initial step, and its aspect type 
 
 For the remaining steps (3rd to 11th), assign the aspect type 'StepChainAnalysis_Step', as illustrated:
 
-![Station1Step](graphics/Step3to11.png)
+![Station1Step](graphics/Addsubasset.png)
 
 Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag 'DB_HMI.ARG1_Seq1_S2' on the asset connectivity tab, as follows:
 
-![Station1ActiveState](graphics/Station1ActiveState1.png)
+![Station1ActiveState](graphics/Linkvariablesstep1.png)
 
 Then, link the variable "Product" to the tag '"DB_Process_Var"."Car_Type_inProduction_Text"' on the asset connectivity tab, choose the sorce type as connector and click change to select the tag from OPC UA Connector on PLC_1 as follows:
 
-![Station1Product](graphics/Linkvariablesstep1.png)
+![Station1Product](graphics/Linkvariablesproduct.png)
 
 For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2. After this, all steps be in "connected" state:
 
