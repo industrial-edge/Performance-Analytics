@@ -213,25 +213,25 @@ Select the child asset "Manufacturing Process" and click this '+' icon To add 5 
 
 Now, it's time to create the Steps that will be displayed in the **Step Time Analysis** dashboard on Performance Insights app. For every step, the PLC should supply a tag indicating the status of the step's activity.
 
-For each station, Step 2 is designated as the initial step, and its aspect type is assigned as 'StepChainAnalysis_InitialStep'. To do this, go to *Station 1 > Aspects > Add Aspect* and type the "Step 2" settings:
+For each station, Step 2 is designated as the initial step, and its aspect type is assigned as 'StepChainAnalysis_InitialStep'. To do this,  go to *Station 1 clcik the '+' icon > type > Aspects > Add Aspect* and Name is "Step 2":
 
-![Station1Aspect](graphics/Station1Aspect.png)
+![Station1Aspect](graphics/addaspect.png)
 
 For the remaining steps (3rd to 11th), assign the aspect type 'StepChainAnalysis_Step', as illustrated:
 
-![Station1Step](graphics/Station1Step.png)
+![Station1Step](graphics/Step3to11.png)
 
 Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag 'DB_HMI.ARG1_Seq1_S2' on the asset connectivity tab, as follows:
 
 ![Station1ActiveState](graphics/Station1ActiveState1.png)
 
-Then, link the variable "Product" to the tag '"DB_Process_Var"."Car_Type_inProduction_Text"' on the asset connectivity tab, as follows:
+Then, link the variable "Product" to the tag '"DB_Process_Var"."Car_Type_inProduction_Text"' on the asset connectivity tab, choose the sorce type as connector and click change to select the tag from OPC UA Connector on PLC_1 as follows:
 
-![Station1Product](graphics/Station1Product1.png)
+![Station1Product](graphics/Linkvariablesstep1.png)
 
 For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2. After this, all steps be in "connected" state:
 
-![Station1FinalSteps](graphics/Station1FinalSteps1.png)
+![Station1FinalSteps](graphics/Step3to11.png)
 
 Repeat this process for every station.
 
