@@ -86,15 +86,19 @@ Go to the *Industrial Edge Management UI > Data Connections*, select "Databus" a
 
 When the configurator is open, click on the "plus" icon in the red square shown in the picture bellow to add an user: 
 
-![Databus_Configuration](graphics/databus_configuration.png)
+![Databus_Configuration](graphics/adduser+.png)
 
 Add an user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps. Select "Publish and Subscribe" as permission. And lastly, click "add"
 
-![Databus_User](graphics/add_user.png)
+![Databus_User](graphics/useradded.png)
 
 Then, just click **Deploy** to apply the changes:
 
-![Deployment](graphics/deploy_databus.png)
+![Deployment](graphics/deploybuttonhit.png)
+
+Selct the device to deploy the databus configuration 
+
+![Selectdevice](graphics/Selectdevicedeploy.png)
 
 ### Configure OPC UA Connector
 
