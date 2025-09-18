@@ -266,7 +266,7 @@ Trend view of the step opens.
 
 In this instance, a single sequence has occurred at Station 1, as depicted in the graphic above. Now, limits need to be defined in the Step Time Analysis configuration tab, as shown:
 
-![Station1STEPTIME](graphics/Station1STEPTIME.png)
+![Station1STEPTIME](graphics/Configsteptimeanalysis.png)
 
 In the "​Limits​" column (yellow square), set the values for the planned and actual duration of the respective step. When the value is exceeded, the step is evaluated as faulty.
 
@@ -283,7 +283,7 @@ In the "​Limits​" column (yellow square), set the values for the planned and
 
 When you have created steps for the asset in IIH Essentials and you have defined the limits then the step time analysis is automatically displayed in the "Step time analysis" dashboard.
 
-![StepTime](graphics/Configsteptimeanalysis.png)
+![StepTime](graphics/StepTime.png) 
 
 With the help of the "Overview" screen you can get all information about the sequences of a specific product for a specified time period. When the step is gray the step time is within the defined limits. A step displayed in red is outside the defined limits.
 
