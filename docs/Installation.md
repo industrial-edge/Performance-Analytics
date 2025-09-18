@@ -241,13 +241,13 @@ After finishing the configuration of the IIH Essentials, open the Performance In
 
 The asset structure that was created in IIH Essentials can also be found in Performance Insight, just click on the "My Plant" icon:
 
-![MyPlant](graphics/MyPlant.png)
+![MyPlant](graphics/PIsteptimeanalysisdashboard.png)
 
 Select any station on the asset structure and you will see that an auto-generated "Step Time Analysis" dashboard got created by Performance Insights as soon as we created the steps on IIH Essentials, as shown in the picture above.
 
 Select the 'Step Time Analysis' dashboard, and it will immediately appear on screen. If the TIA Portal project has been uploaded to the PLCs and the program initiated on the HMI, data should now display on the dashboard:
 
-![StationDashboard](graphics/StepTimeAnalysis1.png)
+![StationDashboard](graphics/Steptimeanalysisdashboard.png)
 
 Here's a more detailed overview of the functions for the buttons and elements on the Step Time Analysis Dashboard:
 
@@ -283,7 +283,7 @@ In the "​Limits​" column (yellow square), set the values for the planned and
 
 When you have created steps for the asset in IIH Essentials and you have defined the limits then the step time analysis is automatically displayed in the "Step time analysis" dashboard.
 
-![StepTime](graphics/StepTime.png)
+![StepTime](graphics/Configsteptimeanalysis.png)
 
 With the help of the "Overview" screen you can get all information about the sequences of a specific product for a specified time period. When the step is gray the step time is within the defined limits. A step displayed in red is outside the defined limits.
 
