@@ -199,9 +199,15 @@ Now, both connectors are correctly configured on IIH Essentials.
 
 ### Configure Assets
 
-Click on the icon "Assets & Connectivity" on the left bar. Add a child asset for the main "edge" asset by clicking on the three points icon and select "Add child asset". Into this child asset add 5 subassets for the stations:
+Click on the icon "Assets & Connectivity" on the left bar. Add a child asset called "Manufacturing Process" for the main "edge" asset by clicking on the '+' icon: 
 
-![IIHAssets](graphics/IIHAssets.png)
+![IIHAssets](graphics/AddassetIIH.png)
+
+Select the child asset "Manufacturing Process" and click this '+' icon To add 5 subassets from "station1" to "station5" 
+
+![SubassetAssets](graphics/Addsubasset.png)
+
+![SubassetAssetsadded](graphics/Subassetsadded.png)
 
 ### Configure Aspects
 
