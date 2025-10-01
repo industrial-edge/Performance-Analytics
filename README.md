@@ -38,7 +38,7 @@ The Industrial Edge Device connects to the PLCs using different protocols:
 - **PLC 4** sends the "Station 4" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
 - **PLC 5** sends the "Station 5" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
 
-And after setting other connections requirements on the Edge Device (Explained in the [Configuration Steps](#configuration-steps)) we can use this data on the **Step Time Analysis** dashboard of the **Performance Insights** app.
+And after setting other connections requirements on the Edge Device (explained in the [Configuration Steps](#configuration-steps)) we can use this data on the **Step Time Analysis** dashboard of the **Performance Insights** app.
 
 For each implemented step the PLC shall provide a tag that carries the step activity status. For each sequential control an asset model with the activity status of the step needs to be configured and connected with the related PLC status tags. 
 
@@ -93,7 +93,7 @@ You can find further information about the following steps under the [Configurat
 
 When you have created steps for the asset in IIH Essentials and you have defined the limits then the step time analysis is automatically displayed in the "Step time analysis" dashboard.
 
-<img id="flow-data" src="docs/graphics/StepTime.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="docs/graphics/StepTime.png" width="600"/></kbd>
 
 With the help of the "Overview" screen you can get all information about the sequences of a specific product for a specified time period. When the step is gray the step time is within the defined limits. A step displayed in red is outside the defined limits.
 

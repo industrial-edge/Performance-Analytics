@@ -85,19 +85,19 @@ Go to the IEM UI > "Data Connections", select "Databus" and launch it on the onb
 
 When the configurator is open, click on the "plus" icon in the red square to add an user: 
 
-<img id="flow-data" src="graphics/adduser+.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/adduser+.png" width="600"/></kbd>
 
 Add an user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps. Select "Publish and Subscribe" as permission. And lastly, click "Save".
 
-<img id="flow-data" src="graphics/useradded.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/useradded.png" width="600"/></kbd>
 
 Then, just click *Deploy* to apply the changes:
 
-<img id="flow-data" src="graphics/deploybuttonhit.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/deploybuttonhit.png" width="600"/></kbd>
 
 Selct the device to deploy the databus configuration.
 
-<img id="flow-data" src="graphics/Selectdevicedeploy.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Selectdevicedeploy.png" width="600"/></kbd>
 
 ### Configure OPC UA Connector
 
@@ -107,31 +107,31 @@ Go to the IEM UI > "Data Connections", select "OPC UA Connector" and launch it o
 
 Add a new data source for PLC1 with the OPC UA connector by clicking on "Add Data Source":
 
-<img id="flow-data" src="graphics/OPC_UA1.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/OPC_UA1.png" width="600"/></kbd>
 
 Enter your OPC Server (PLC1) details as shown in the image and click "Add":
 
-<img id="flow-data" src="graphics/OPC_UA2.png" width="600"/>
+<kbd><img id="flow-data" src="graphics/OPC_UA2.png" width="600"/></kbd>
 
 Add the needed tags (this can be done by browsing or adding them manually). In this case, click on the "browse tags" icon:
 
-<img id="flow-data" src="graphics/OPC_UA3.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/OPC_UA3.png" width="600"/></kbd>
 
 The "active" variables of the individual steps are those that are in DB_HMI and named with *DB_HMI.ARG1_Seq1_S1* to *DB_HMI.ARG1_Seq1_S19*. These variables indicate if the respective steps are active right now. Also add the string variable for the product *DB_Process_Var.Car_Type_inProduction_Text*.
 
-<img id="flow-data" src="graphics/OPC_UA5.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/OPC_UA5.png" width="600"/></kbd>
 
 Repeat the same process for the PLC2. 
 
 Edit the databus settings:
 
-<img id="flow-data" src="graphics/OPC_UA6.png" width="400"/>
+<kbd><img id="flow-data" src="graphics/OPC_UA6.png" width="400"/></kbd>
 
 > Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
 Deploy the OPC UA Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of both PLCs should have green icon:
 
-<img id="flow-data" src="graphics/OPC_UA7.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/OPC_UA7.png" width="600"/></kbd>
 
 If any issue is presented when configuring the OPC UA Connector, check [documentation](https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.4/opc-ua-connector).
 
@@ -143,33 +143,33 @@ Let's start with the PLC3 configuration. Go to the IEM UI > "Data Connections", 
 
 Add a new data source for PLC3 with the S7 Connector by clicking on "Add Data Source":
 
-<img id="flow-data" src="graphics/S7+0.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/S7+0.png" width="600"/></kbd>
 
 Enter your PLC3 details as shown in the image and click "Add":
 
-<img id="flow-data" src="graphics/S7+1.png" width="400"/>
+<kbd><img id="flow-data" src="graphics/S7+1.png" width="400"/></kbd>
 
 Use the browse feature to add the same tags as in previous PLCs, similar to the method used during the OPC UA Connector configuration:
 
-<img id="flow-data" src="graphics/S7+2.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/S7+2.png" width="600"/></kbd>
 
 Now, repeat the same procedure for the fourth and fifth PLC.
 
 Before deploying the connector, edit the databus settings:
 
-<img id="flow-data" src="graphics/Databus_S7.png" width="400"/>
+<kbd><img id="flow-data" src="graphics/Databus_S7.png" width="400"/></kbd>
 
 > Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
 Deploy the S7 Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of all PLCs should have green icon:
 
-<img id="flow-data" src="graphics/S7_Deploy.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/S7_Deploy.png" width="600"/></kbd>
 
 ## Configure IIH Essentials
 
 Steps are created for an asset as aspects in IIH Essentilas and automatically applied in Performance Insight. An asset represents, for this example, a car production "Station" and for each asset the aspects represents the steps.
 
-<img id="flow-data" src="graphics/Dataservice_Struktur.jpg" width="400" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Dataservice_Struktur.jpg" width="400"/></kbd>
 
 Performance Insight use this structure of assets and aspects to visualize the data in a later step. Open the web interface of your IED and launch the IIH Essentials app. 
 
@@ -177,7 +177,7 @@ Performance Insight use this structure of assets and aspects to visualize the da
 
 Firstly, Databus needs to be configured on IIH Essentials. To do that go to IED UI > Apps, open IIH Essentials and go to "Settings" > "Databus Settings", click on the edit icon:
 
-<img id="flow-data" src="graphics/DatabuscredentialsIIHessentials.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/DatabuscredentialsIIHessentials.png" width="600"/></kbd>
 
 Enter the needed data and click **save**.
 
@@ -185,15 +185,15 @@ Enter the needed data and click **save**.
 
 Secondly, connectors need to be configured on IIH Essentials. To achive this, go to "Connectors" tab and click the "OPC UA Connector" and "S7 Connector" and it should be activated by default:
 
-<img id="flow-data" src="graphics/Connectoractivesstate.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Connectoractivesstate.png" width="600"/></kbd>
 
 If the connector is not in active state, select the connectors and click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active:
 
-<img id="flow-data" src="graphics/connecactivemanual.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/connecactivemanual.png" width="600"/></kbd>
 
 The status of both connectors must be "Active" and the connector indicator shows "Connected":
 
-<img id="flow-data" src="graphics/opcuaconnactive.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/opcuaconnactive.png" width="600"/></kbd>
 
 Now, both connectors are correctly configured on IIH Essentials.
 
@@ -201,13 +201,13 @@ Now, both connectors are correctly configured on IIH Essentials.
 
 Click on the icon "Assets & Connectivity" on the left bar. Add a child asset called "Manufacturing Process" for the main "edge" asset by clicking on the '+' icon: 
 
-<img id="flow-data" src="graphics/AddassetIIH.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/AddassetIIH.png" width="600"/></kbd>
 
 Select the child asset "Manufacturing Process" and click this '+' icon to add 5 subassets from "station1" to "station5" 
 
-<img id="flow-data" src="graphics/Addsubasset.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Addsubasset.png" width="600"/></kbd>
 
-<img id="flow-data" src="graphics/Subassetsadded.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Subassetsadded.png" width="600"/></kbd>
 
 ### Configure Aspects
 
@@ -252,7 +252,7 @@ Open the *Advanced settings*:
 - Link type = *Composition* (**mandatory!**)
 - Click *Add* to save the aspect
 
-<img id="flow-data" src="graphics/addaspect.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/addaspect.png" width="600"/></kbd>
 
 For the remaining steps (3rd to 11th), assign the 'step' aspect type:
 
@@ -265,19 +265,19 @@ Open the *Advanced settings*:
 - Link type = *Composition* (**mandatory!**)
 - Click *Add* to save the aspect
 
-<img id="flow-data" src="graphics/Subaspect.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Subaspect.png" width="600"/></kbd>
 
 Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag *DB_HMI.ARG1_Seq1_S2* on the asset connectivity tab:
 
-<img id="flow-data" src="graphics/Linkvariablesstep1.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Linkvariablesstep1.png" width="600"/></kbd>
 
 Link the variable "Product" to the tag *DB_Process_Var.Car_Type_inProduction_Text* on the asset connectivity tab, choose the sorce type as connector and click change to select the tag from OPC UA Connector on PLC_1:
 
-<img id="flow-data" src="graphics/Linkvariablesproduct.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Linkvariablesproduct.png" width="600"/></kbd>
 
 For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2. After this, all steps be in "connected" state:
 
-<img id="flow-data" src="graphics/Step3to11.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Step3to11.png" width="600"/></kbd>
 
 Repeat this process for every station.
 
@@ -287,11 +287,11 @@ After finishing the configuration of the IIH Essentials, open the Performance In
 
 The asset structure that was created in IIH Essentials can also be found in Performance Insight. Perform an asset reload, in case the app was already open. Then click on the "My Plant" icon and select the dedicated asset where the aspects were created. An **auto-generated** "Step Time Analysis" dashboard is available:
 
-<img id="flow-data" src="graphics/PIsteptimeanalysisdashboard.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/PIsteptimeanalysisdashboard.png" width="600"/></kbd>
 
 Open the 'Step Time Analysis' dashboard to enter the overview page. If the TIA Portal project has been uploaded to the PLCs and the program initiated on the HMI, data should now display on the dashboard:
 
-<img id="flow-data" src="graphics/Steptimeanalysisdashboard.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Steptimeanalysisdashboard.png" width="600"/></kbd>
 
 Here's a more detailed overview of the functions for the buttons and elements on the Step Time Analysis dashboard:
 
@@ -309,7 +309,7 @@ Here's a more detailed overview of the functions for the buttons and elements on
 
 In this instance, a single sequence has occurred at Station1, as depicted in the graphic above. Now, limits need to be defined in the Step Time Analysis configuration tab:
 
-<img id="flow-data" src="graphics/Configsteptimeanalysis.png" width="600" style="border: 1px solid black"/>
+<kbd><img id="flow-data" src="graphics/Configsteptimeanalysis.png" width="600"/></kbd>
 
 In the "​Limits​" column (yellow square), set the values for the planned and actual duration of the respective step. When the value is exceeded, the step is evaluated as faulty.
 
