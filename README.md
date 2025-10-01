@@ -9,7 +9,8 @@ Below you can find the structure of this use case:
   - [Requirements](#requirements)
     - [Prerequisites](#prerequisites)
     - [Used components](#used-components)
-  - [Configuration steps](#configuration-steps)
+  - [Configuration](#configuration)
+  - [Usage](#usage)
   - [Documentation](#documentation)
   - [Contribution](#contribution)
   - [Licence and Legal Information](#licence-and-legal-information)
@@ -48,11 +49,11 @@ The option “Step time analysis” of the Edge App “Performance Insight” ne
 ### Prerequisites
 * Industrial Edge Learning Path (Module 1-3)
 *	Access to an Industrial Edge Management System (IEM)
-*	Onboarded Industrial Edge Device (IED) on Industrial Edge Management
-*	Establish connection to 5 PLCs for getting data into the Edge Device
+*	Onboarded Industrial Edge Device (IED) on IEM
+*	Establish connection to 5 PLCs for getting data into the IED
 *	Installed system configurators (S7 Connector Configurator, Databus Configurator)
 *	Installed apps on IED (S7 Connector, Databus, IIH Essentials, Performance Insight)
-*	Google Chrome (Version ≥ 72)
+*	HTML5-capable Internet browser (e.g. Google Chrome)
 
 ### Used components
 TIA and PLC:
@@ -79,23 +80,24 @@ Industrial Edge:
 *	Common Connector Configurator V2.0.1
 *	Databus Configurator V3.2.2
 
+## Configuration
 
-## Configuration Steps
-
-You can find further information about the following steps in the [docs](docs/Installation.md):
+You can find further information about the following steps under the [Configuration](docs/Installation.md) chapter:
 
 -	Configure PLC project in TIA Portal
 - Configure PLC connections in Industrial Edge
-  - Configure Databus
-  - Configure PLC Connectors
 - Configure IIH Essentials
-  - Enter Databus Credentials.
-  - Link Connectors to IIH.
-  - Configure Assets
-  - Configure Aspects
 - Configure Performance Insight
-  - Defining limits
-  - Show step time analysis
+
+## Usage
+
+When you have created steps for the asset in IIH Essentials and you have defined the limits then the step time analysis is automatically displayed in the "Step time analysis" dashboard.
+
+<img id="flow-data" src="docs/graphics/StepTime.png" width="600" style="border: 1px solid black"/>
+
+With the help of the "Overview" screen you can get all information about the sequences of a specific product for a specified time period. When the step is gray the step time is within the defined limits. A step displayed in red is outside the defined limits.
+
+For Example, The image above shows the Step Time Analysis overview screen where five sequences have been completed. In every sequence, only the 7th step took longer than the expected completion time, marking it as faulty in red.
 
 ## Documentation
 
@@ -103,9 +105,9 @@ You can find further documentation and help in the following links
 
 * [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
 * [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
+* [Industrial Edge Documentation](https://docs.industrial-operations-x.siemens.cloud/p/industrial-edge)
 * [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
 * [Industrial Edge GitHub page](https://github.com/industrial-edge)
-* [Industrial Edge Learning Path](https://siemens-learning-simaticedge.sabacloud.com)
 
 ## Contribution
 
