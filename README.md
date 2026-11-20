@@ -24,7 +24,7 @@ This comparison makes it easier to identify specific steps in the production pro
 
 This specific example shows how an exemplary production line is connected, the data from the plant is transferred to the edge system and evaluated there. This is shown using the step time analysis of a simulated automobile production with 5 assembly stations and randomly delayed steps.
 
-![overview](docs/graphics/overview.png)
+![overview](docs/graphics/Overview.png)
 
 ### General Task
 
