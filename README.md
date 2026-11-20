@@ -28,15 +28,9 @@ This specific example shows how an exemplary production line is connected, the d
 
 ### General Task
 
-This sample application is based on five S7-1500 PLCs to control the manufacturing process of cars. A sequential control system that was implemented with the TIA Portal programming language “Graph” runs on each PLC. 
+This sample application is based on one S7-1500 PLC controlling 5 stations that are port of the manufacturing process of cars. A sequential control system that was implemented with the TIA Portal programming language “Graph” runs on the PLC. 
 
-The Industrial Edge Device connects to the PLCs using different protocols:
-
-- **PLC 1** sends the "Station 1" data to the Edge Device by OPC UA using the "OPC UA Connector".
-- **PLC 2** sends the "Station 2" data to the Edge Device by OPC UA using the "OPC UA Connector"
-- **PLC 3** sends the "Station 3" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
-- **PLC 4** sends the "Station 4" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
-- **PLC 5** sends the "Station 5" data to the Edge Device by Optimized S7 Protocol (S7+) using the "S7 Connector".
+The Industrial Edge Device connects to the PLC using the S7+ protocol.
 
 And after setting other connections requirements on the Edge Device (explained in the [Configuration Steps](#configuration-steps)) we can use this data on the **Step Time Analysis** dashboard of the **Performance Insights** app.
 
@@ -58,26 +52,22 @@ The option “Step time analysis” of the Edge App “Performance Insight” ne
 ### Used components
 TIA and PLC:
 
-*	TIA Portal V20
-*	PLC1: CPU 1518F-4 PN/DP FW 2.8
-*	PLC2: CPU 1518F-4 PN/DP FW 2.8
-*	PLC3: CPU 1517TF-3 PN/DP FW 2.8
-*	PLC4: CPU 1517F-3 PN/DP FW 2.8
-*	PLC5: CPU 1517TF-3 PN/DP FW 2.8
-*	HMI: TP900 Comfort
+*	TIA Portal V21
+*	PLC: PLCSIM Advanced v8.0
+*	HMI: WinCC Unified Runtime available
 
 Industrial Edge:
 
-*	Industrial Edge Management Virtual V2.5.1-2
-*	Industrial Edge Virtual Device V1.22.3-1-a
-*	SIMATIC S7 Connector V2.3.1
-* OPC UA Connector V2.4.2
-* Common Import Converter V3.0.0
-* Common Configurator V2.2.1
-*	Databus V3.2.1
-*	IIH Essentials V2.2.1
-*	Performance Insight V1.21.1
-*	Common Connector Configurator V2.0.1
+*	Industrial Edge Management Virtual V1.15.20
+*	Industrial Edge Virtual Device V1.28.1-2-b
+*	SIMATIC S7+ Connector V2.5.0
+* Common Import Converter V3.2.0
+* Common Configurator V2.6.0
+*	Databus V4.0.0
+*	Databus Configurator V4.0.0
+*	IIH Essentials V2.7.1
+*	Performance Insight V1.26.0
+*	Common Connector Configurator V2.0.0+5
 *	Databus Configurator V3.2.2
 
 ## Configuration
