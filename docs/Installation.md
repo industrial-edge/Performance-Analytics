@@ -15,7 +15,7 @@
 
 In order to set up the 'Step Time Analysis' dashboard within the Performance Insights application, it is essential to understand the flow of data across the system. The following diagram illustrates how data is communicated from the PLCs to the IED, and subsequently processed by the Edge applications:
 
-<img id="flow-data" src="graphics/Archi.png" alt="Data Flow Diagram for Performance Insights" width="800"/>
+<img id="flow-data" src="graphics/DataFlow.png" alt="Data Flow Diagram for Performance Insights" width="800"/>
 
 To achieve this data flow, the following configurations will be explained:
 
