@@ -19,65 +19,113 @@ In order to set up the 'Step Time Analysis' dashboard within the Performance Ins
 
 To achieve this data flow, the following configurations will be explained:
 
-1. **OPC UA Connector**: Configure the OPC UA Connector to establish communication with PLC 1 and PLC 2. Ensure that the OPC UA servers on these PLCs are set up to allow for data exchange.
+1. **S7+ Connector**: Set up the S7+ Connector to facilitate data transfer from the PLC using the S7+ protocol.
 
-2. **S7 Connector**: Set up the S7 Connector to facilitate data transfer from PLC 3, PLC 4 and PLC 5 using the S7+ protocol.
+2. **Databus Configuration**: Integrate the MQTT-Broker to allow for a seamless data flow from the OPC UA and S7 Connectors to the higher-level Industrial Edge Applications.
 
-3. **Databus Configuration**: Integrate the MQTT-Broker to allow for a seamless data flow from the OPC UA and S7 Connectors to the higher-level Industrial Edge Applications.
+3. **IIH Essentials**: Install and configure the IIH Essentials application to ensure that the core industrial data from your PLCs can be effectively harnessed and utilized by the IED. This setup is crucial for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
 
-4. **IIH Essentials**: Install and configure the IIH Essentials application to ensure that the core industrial data from your PLCs can be effectively harnessed and utilized by the IED. This setup is crucial for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
-
-5. **Performance Insights**: Within the Performance Insights application, configure the 'Step Time Analysis' feature by linking it to the respective asset models, which reflect the status of the sequential control steps from the PLCs.
+4. **Performance Insights**: Within the Performance Insights application, configure the 'Step Time Analysis' feature by linking it to the respective asset models, which reflect the status of the sequential control steps from the PLCs.
 
 ## Configure PLC project in TIA Portal
 
 This use case contains a TIA project which simulates the process. The project also inclundes a HMI visualization to operate the demonstration process. Download the TIA Portal project [here](../src/StepTimeAnalysis_20221129_1438.7z). The first steps are to configure the PLC project and the intruduction into the HMI screens.
 
-1.	Open TIA portal and open the project containing the car production application (Adapt the PLC type and IP addresses to your system for each PLC and HMI)
+1.	Open TIA portal and open the project containing the car production application (Adapt the PLC type and IP addresses to your system for the PLC and HMI)
 
 ![TIA_IP_Adress](graphics/TIA_IP_Adress.png)
 
-2.	Download the PLC program to the PLCs and set the PLCs into RUN
+2.	Download the PLC program to the PLC and set it to RUN
 3.	Open the HMI to control the car production application
 
-![HMI Overview](graphics/HMI_overview.png)
+### **Global Screen**:
 
-Global Screen:
-* Switch between automatic and manual mode of the stations
-* Select which car type should be produced
-* See which car type is actually in production in each station
-* Check status of the stations
-* See the calculated and measured production time for each car type
-* Start and stop the sequential control system in the stations
-* Switch to the screens for every station 
+![HMI Overview](graphics/Main_Screen.png)
 
-![HMI Stationview](graphics/HMI_stationview.png)
+1. Select mode for all stations: Automatic or Manual
+   
+![HMI Overview](graphics/General_Stations_Mode.png)
 
-Station Screen:
-* Switch between automatic and manual mode for the selected station (Only when status is Idle)
-* Select the car type with the dropdown menu in manual mode
-* After selecting the car type start the sequential control
-* Stop and reset the sequential control
-* See the status of the station
-* See the car type in the station in automatic mode
-* Switch to the delay select screen ("Simulate values")
+! The mode can only be changed if the station is in Idle mode (not producing a car) 
 
-![HMI Delayselect](graphics/delay_select.png)
+2. Select the color car to produce 
 
-Delay Select Screen:
+3. Gives information about the station: 
+  Status 
+    Idle: empty station
+    Busy: car being processed 
+ 
+  Mode 
+    Manual 
+    Automatic 
+
+  Producing car 
+    Under it, it will show the car being produced 
+
+  3 dots 
+    Go into Station view details 
+
+4. Gives production information about each car color 
+
+5. Starts and Stops the entire production line. Reset only works if the stations are in manual mode 
+
+6. Quick navigation bar to change view between stations and overview of general production 
+
+### **Station Screen**:
+
+![HMI Stationview](graphics/Station_View.png)
+
+1. Select mode only for the station: Automatic or Manual 
+
+![HMI Overview](graphics/General_Stations_Mode.png)
+
+2. Information on the status of the station: Idle/Busy 
+
+3. Information on the color car being produced: 
+    Dropdown list for manual mode
+   
+     ![HMI Overview](graphics/Dropdown_List_Manual_Mode.png)
+
+    Image of color car for automatic mode 
+    
+      ![HMI Overview](graphics/Automatic_Mode_Color_Producing.png)
+
+4. Switch to the delay select screen ("Simulate values")
+   
+![HMI Overview](graphics/Simulate_Values.png)
+
+5. Commands to run at the specific station only when the station is on manual mode. 
+
+Starts and Stops the production of the station 
+
+6. Information about the current working step which is being made on the current station 
+
+### **Delay Select Screen**:
+
+![HMI Overview](graphics/Simulate_Values_Screen.png)
+
 * Reachable via button “Simulate values” on each station
 * Select which step time should be delayed
 * When the step is selected, a random time between 0 and 10 seconds is added to the step
 
 ## Configure PLC Connections in Industrial Edge
 
-We are now switching to the Edge part of this use case. Each of the following steps are done in the Industrial Edge system and, as explained in the Data Flow picture [above](#flow-data), we use the S7 Connector and OPC UA Connector on the IED to read data from the PLCs and provide the data. Then, the data is sent via the connectors to the Databus, where the IIH Essentials can use the information for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
+We are now switching to the Edge part of this use case. Each of the following steps are done in the Industrial Edge system and, as explained in the Data Flow picture [above](#flow-data), we use the S7+ Connector on the IED to read data from the PLC and provide the data. Then, the data is sent via the connector to the Databus, where the IIH Essentials can use the information for enabling comprehensive data collection and subsequent analysis within the Performance Insights application.
 
 In order to build this infrastructure, first, these apps must be configured correctly:
 
 * Databus
-* OPC UA Connector
-* S7 Connector
+* S7+ Connector
+
+### Install Databus Configurator and Databus
+
+If you haven't installed the databus on your IEM, go to Applications > Management, search for the Databus Configurator app and install it.
+
+![](graphics/IEM_databus_configurator.png)
+
+Then, on your IEM, go to Applications > Device, search for the Databus app and install it on the device that is going to be used
+
+![](graphics/IEM_databus_install.png)
 
 ### Configure Databus
 
