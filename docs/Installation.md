@@ -46,7 +46,7 @@ This use case contains a TIA project which simulates the process. The project al
    
 ![HMI Overview](graphics/General_Stations_Mode.png)
 
-! The mode can only be changed if the station is in Idle mode (not producing a car) 
+> Important information!: The mode can only be changed if the station is in Idle mode (not producing a car) 
 
 2. Select the color car to produce 
 
