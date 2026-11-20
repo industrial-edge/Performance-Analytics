@@ -155,33 +155,51 @@ Selct the device to deploy the databus configuration.
 
 ### Configure S7 Connector
 
-In this section, the communication with the **third, fourth and fifth PLCs** are configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
+In this section, the communication with the PLC is configured using the S7+ Connector.
 
-Let's start with the PLC3 configuration. Go to the IEM UI > "Data Connections", select "S7 Connector" and launch it on the onboarded IED.
+Open the Common Configurator
 
-Add a new data source for PLC3 with the S7 Connector by clicking on "Add Data Source":
+Before setting up the connector, edit the databus settings:
 
-<kbd><img id="flow-data" src="graphics/S7+0.png" width="600"/></kbd>
-
-Enter your PLC3 details as shown in the image and click "Add":
-
-<kbd><img id="flow-data" src="graphics/S7+1.png" width="400"/></kbd>
-
-Use the browse feature to add the same tags as in previous PLCs, similar to the method used during the OPC UA Connector configuration:
-
-<kbd><img id="flow-data" src="graphics/S7+2.png" width="600"/></kbd>
-
-Now, repeat the same procedure for the fourth and fifth PLC.
-
-Before deploying the connector, edit the databus settings:
-
-<kbd><img id="flow-data" src="graphics/Databus_S7.png" width="400"/></kbd>
+![](graphics/Databus_Credentials.png)
 
 > Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
 
-Deploy the S7 Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of all PLCs should have green icon:
+Add a new data source for the PLC with the S7+ Connector by clicking on "Get Data":
 
-<kbd><img id="flow-data" src="graphics/S7_Deploy.png" width="600"/></kbd>
+![](graphics/Get_Data.png)
+
+Click on the S7+ Connector and then under "Data source" click on "Add"
+
+![](graphics/Add_Data_Source.png)
+
+Enter your PLC details as shown in the image and click "Save":
+
+![](graphics/Data_Source_Info.png)
+
+Use the "Browse tags" feature to add the necessary tags:
+
+![](graphics/Browse_Tags_Function.png)
+
+![](graphics/Browse_Tags.png)
+
+Tags to Browse:
+- DB_HMI_PLC1.ARG1_Seq1_S2 up to DB_HMI_PLC1.ARG1_Seq1_S11
+- DB_HMI_PLC2.ARG1_Seq1_S2 up to DB_HMI_PLC2.ARG1_Seq1_S11
+- DB_HMI_PLC3.ARG1_Seq1_S2 up to DB_HMI_PLC3.ARG1_Seq1_S11
+- DB_HMI_PLC4.ARG1_Seq1_S2 up to DB_HMI_PLC4.ARG1_Seq1_S11
+- DB_HMI_PLC5.ARG1_Seq1_S2 up to DB_HMI_PLC5.ARG1_Seq1_S11
+- DB_Process_Var_PLC1.Car_Type_inProduction_Text
+- DB_Process_Var_PLC2.Car_Type_inProduction_Text
+- DB_Process_Var_PLC3.Car_Type_inProduction_Text
+- DB_Process_Var_PLC4.Car_Type_inProduction_Text
+- DB_Process_Var_PLC5.Car_Type_inProduction_Text
+
+Once all are selected, click on "Add to Data Source"
+
+Select all tags and deploy the S7+ Connector by clicking "Deploy".
+
+![](graphics/Deploy_Tags.png)
 
 ## Configure IIH Essentials
 
