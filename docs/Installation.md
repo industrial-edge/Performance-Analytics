@@ -131,21 +131,27 @@ Then, on your IEM, go to Applications > Device, search for the Databus app and i
 
 Go to the IEM UI > "Data Connections", select "Databus" and launch it on the onboarded IED.
 
+![](graphics/Databus_Connection_IEM.png)
+
+Select the device to launch and click on launch
+
+![](graphics/Launch_Databus.png)
+
 When the configurator is open, click on the "plus" icon in the red square to add an user: 
 
-<kbd><img id="flow-data" src="graphics/adduser+.png" width="600"/></kbd>
+![](graphics/Databus_Add_User.png)
 
 Add an user with the topic: `ie/#`. In this use case we use the credentials "edge" / "edge". The credentials can be chosen freely but must be the same in all system apps. Select "Publish and Subscribe" as permission. And lastly, click "Save".
 
-<kbd><img id="flow-data" src="graphics/useradded.png" width="600"/></kbd>
+![](graphics/Databus_Add_User_Credentials.png)
 
 Then, just click *Deploy* to apply the changes:
 
-<kbd><img id="flow-data" src="graphics/deploybuttonhit.png" width="600"/></kbd>
+![](graphics/Deploy_Databus.png)
 
 Selct the device to deploy the databus configuration.
 
-<kbd><img id="flow-data" src="graphics/Selectdevicedeploy.png" width="600"/></kbd>
+![](graphics/Select_Devices_To_Deploy.png)
 
 ### Configure S7 Connector
 
