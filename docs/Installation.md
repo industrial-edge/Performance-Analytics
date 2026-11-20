@@ -219,19 +219,13 @@ Enter the needed data and click **save**.
 
 ### Link Connectors to IIH
 
-Secondly, connectors need to be configured on IIH Essentials. To achive this, go to "Connectors" tab and click the "OPC UA Connector" and "S7 Connector" and it should be activated by default:
-
-<kbd><img id="flow-data" src="graphics/Connectoractivesstate.png" width="600"/></kbd>
+Secondly, connectors need to be configured on IIH Essentials. To achive this, go to "Get Data" tab and click the "S7+ Connector" and it should be activated by default, shown by the green tick
 
 If the connector is not in active state, select the connectors and click the edit icon on the top right to open the connector configuration tab and switch the "Status" to active:
 
-<kbd><img id="flow-data" src="graphics/connecactivemanual.png" width="600"/></kbd>
+![](graphics/Connector_State.png)
 
-The status of both connectors must be "Active" and the connector indicator shows "Connected":
-
-<kbd><img id="flow-data" src="graphics/opcuaconnactive.png" width="600"/></kbd>
-
-Now, both connectors are correctly configured on IIH Essentials.
+The status of the connector must be "Active" and the connector indicator shows "Connected":
 
 ### Configure Assets
 
