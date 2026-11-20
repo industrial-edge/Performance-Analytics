@@ -229,7 +229,7 @@ The status of the connector must be "Active" and the connector indicator shows "
 
 ### Configure Assets
 
-Click on the icon "Assets & Connectivity" on the left bar. Add a child asset called "Manufacturing Process" for the main "edge" asset by clicking on the '+' icon: 
+Click on the icon "Manage Data" on the left bar. Add a child asset called "Manufacturing Process" for the main "edge" asset by clicking on the '+' icon: 
 
 <kbd><img id="flow-data" src="graphics/AddassetIIH.png" width="600"/></kbd>
 
@@ -297,15 +297,15 @@ Open the *Advanced settings*:
 
 <kbd><img id="flow-data" src="graphics/Subaspect.png" width="600"/></kbd>
 
-Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag *DB_HMI.ARG1_Seq1_S2* on the asset connectivity tab:
+Link the variables created during aspect addition with their respective asset tags. For the initial step (Step 2), two variables were created. Link the 'ActiveState' variable to its corresponding status tag *DB_HMI_PLC1.ARG1_Seq1_S2* on the asset connectivity tab:
 
 <kbd><img id="flow-data" src="graphics/Linkvariablesstep1.png" width="600"/></kbd>
 
-Link the variable "Product" to the tag *DB_Process_Var.Car_Type_inProduction_Text* on the asset connectivity tab, choose the sorce type as connector and click change to select the tag from OPC UA Connector on PLC_1:
+Link the variable "Product" to the tag *DB_Process_Var_PLC1.Car_Type_inProduction_Text* on the asset connectivity tab, choose the sorce type as connector and click change to select the tag from OPC UA Connector on PLC_1:
 
 <kbd><img id="flow-data" src="graphics/Linkvariablesproduct.png" width="600"/></kbd>
 
-For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag, just as you did for Step 2. After this, all steps be in "connected" state:
+For the remaining steps (3rd to 11th), similarly link the 'ActiveState' variable to its respective tag (e.g. DB_HMI_PLC1.ARG1_Seq1_S3 for Step3), just as you did for Step 2. After this, all steps be in "connected" state:
 
 <kbd><img id="flow-data" src="graphics/Step3to11.png" width="600"/></kbd>
 
