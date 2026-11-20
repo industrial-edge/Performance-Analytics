@@ -153,7 +153,7 @@ Selct the device to deploy the databus configuration.
 
 ![](graphics/Select_Devices_To_Deploy.png)
 
-### Configure S7 Connector
+### Configure S7+ Connector
 
 In this section, the communication with the PLC is configured using the S7+ Connector.
 
