@@ -147,42 +147,6 @@ Selct the device to deploy the databus configuration.
 
 <kbd><img id="flow-data" src="graphics/Selectdevicedeploy.png" width="600"/></kbd>
 
-### Configure OPC UA Connector
-
-In this part, connection with the **first two PLCs** are established using the OPC UA Connector. 
-
-Go to the IEM UI > "Data Connections", select "OPC UA Connector" and launch it on the onboarded IED.
-
-Add a new data source for PLC1 with the OPC UA connector by clicking on "Add Data Source":
-
-<kbd><img id="flow-data" src="graphics/OPC_UA1.png" width="600"/></kbd>
-
-Enter your OPC Server (PLC1) details as shown in the image and click "Add":
-
-<kbd><img id="flow-data" src="graphics/OPC_UA2.png" width="600"/></kbd>
-
-Add the needed tags (this can be done by browsing or adding them manually). In this case, click on the "browse tags" icon:
-
-<kbd><img id="flow-data" src="graphics/OPC_UA3.png" width="600"/></kbd>
-
-The "active" variables of the individual steps are those that are in DB_HMI and named with *DB_HMI.ARG1_Seq1_S1* to *DB_HMI.ARG1_Seq1_S19*. These variables indicate if the respective steps are active right now. Also add the string variable for the product *DB_Process_Var.Car_Type_inProduction_Text*.
-
-<kbd><img id="flow-data" src="graphics/OPC_UA5.png" width="600"/></kbd>
-
-Repeat the same process for the PLC2. 
-
-Edit the databus settings:
-
-<kbd><img id="flow-data" src="graphics/OPC_UA6.png" width="400"/></kbd>
-
-> Hint: Username and password should be the same as was set in the IE Databus configuration, e.g., "edge" / "edge".
-
-Deploy the OPC UA Connector by clicking "Deploy". After deployment the "Bus Adaptor" and the "Data Source" status of both PLCs should have green icon:
-
-<kbd><img id="flow-data" src="graphics/OPC_UA7.png" width="600"/></kbd>
-
-If any issue is presented when configuring the OPC UA Connector, check [documentation](https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.4/opc-ua-connector).
-
 ### Configure S7 Connector
 
 In this section, the communication with the **third, fourth and fifth PLCs** are configured using the S7 Connector; however, the communication is set up with the S7+ protocol.
